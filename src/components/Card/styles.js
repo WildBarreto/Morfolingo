@@ -1,6 +1,25 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  
+  width: 170px;
+  height: 200px;
+  margin-left: 50%;
+  top: 443.09px;
+  margin-bottom: 10px;
+  background: #5acc05;
+  border-radius: 12px;
+
+  grid-column-gap: 11px;
+  display: grid;
+  grid-auto-columns: calc(33.33333% - 8px);
+  grid-auto-flow: column;
+  justify-content: center;
+
+  cursor: pointer;
+  
+  padding: 11px ;
+  
   img {
     width: 60px;
   }
@@ -41,19 +60,8 @@ export const Container = styled.div`
     
   }
 
-  width: 170px;
-  height: 200px;
-  margin-left: 50%;
-  top: 443.09px;
-  margin-bottom: 10px;
-  background: #5acc05;
-  border-radius: 12px;
-
-  grid-column-gap: 11px;
-  display: grid;
-  grid-auto-columns: calc(33.33333% - 8px);
-  grid-auto-flow: column;
-  justify-content: center;
+  ul{
+    margin-top: 50px;
+  }
   
-  padding: 11px ;
 `;

@@ -1,25 +1,34 @@
-import React from 'react';
+import React from "react";
 
-import { } from 'react-icons/md'
+import {} from "react-icons/md";
 
-import Card from '../Card'
+import Card from "../Card";
 
-import { Container } from './styles';
+import { Container } from "./styles";
 
-function List() {
+function List({data}) {
   return (
-      <Container>
-          <header>
-              <h2>Estrutura das palavras</h2>
-          </header>
+    <Container>
+      <header>
+        <h2>{data.title}</h2>
+      </header>
 
-          <ul>
-              <Card/>
-              <Card/>
-              <Card/>
-            
-          </ul>
-      </Container>
+      
+      <section class="grid grid-template-rows-2">
+      <div class="item"><Card /></div>
+        <div class="item"><Card /></div>
+       
+        
+      </section>
+
+      <section class="grid grid-template-rows-2">
+      <div class="item"><Card /></div>
+        <div class="item"><Card /></div>
+       
+        
+      </section>
+     
+    </Container>
   );
 }
 
