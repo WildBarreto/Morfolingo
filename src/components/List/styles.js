@@ -18,13 +18,14 @@ export const Container = styled.div`
 }
 
 .grid-template-rows-2 {
-	grid-template-rows: 110px 100px;
+	grid-template-rows: 230px 230px;
 }
 .grid {
 	max-width: 400px;
 	margin: 0 auto;
 
 }
+
 
 
   h2 {

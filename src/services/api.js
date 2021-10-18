@@ -1,3 +1,4 @@
+import idosa from '../assets/idosa.svg'
 export function loadLists() {
     return [
       { 
@@ -6,37 +7,26 @@ export function loadLists() {
         cards: [
           {
             id: 1,
-            content: 'Estudar módulo 01 de NodeJS',
+            content: 'Radical',
             labels: ['#7159c1'],
-            user: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/profile.png'
+            user: idosa
           },
           {
             id: 2,
-            content: 'Criar vídeo para o Youtube ensinando a recriar a interface do Pipefy',
+            content: 'Sufixo',
             labels: ['#7159c1'],
             user: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/profile.png'
           },
           {
             id: 3,
-            content: 'Estudar módulo 03 de React Native',
+            content: 'Préfixo',
             labels: ['#7159c1'],
             user: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/profile.png'
           },
-          {
-            id: 4,
-            content: 'Gravar Aula "NextJS: Utilizando server-side rendering com ReactJS"',
-            labels: ['#54e1f7'],
-            user: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/profile.png'
-          },
-          {
-            id: 5,
-            content: 'Gravar testes e deploy ReactJS',
-            labels: ['#54e1f7'],
-            user: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/profile.png'
-          },
+          
         ]
       },
-      { 
+    /*  { 
         title: 'Classificação', 
         creatable: false,
         cards: [
@@ -70,27 +60,38 @@ export function loadLists() {
             labels: [],
           }
         ]
-      },
+      },*/
       { 
-        title: 'Concluído', 
+        title: 'Classificação das palavras', 
         creatable: false,
         done: true,
         cards: [
           {
             id: 10,
-            content: 'Gravar aula sobre deploy e CI com React Native',
+            content: 'Substantivo',
             labels: [],
           },
           {
             id: 12,
-            content: 'Gravar testes e deploy ReactJS',
+            content: 'Adjetivo',
             labels: ['#54e1f7'],
           },
           {
             id: 13,
-            content: 'Gravar Aula "Internacionalização de aplicações Node.js, ReactJS e React Native"',
+            content: 'Pronome',
             labels: ['#7159c1'],
-          }
+          },
+          {
+            id: 14,
+            content: 'Artigo',
+            labels: ['#7159c1'],
+          },
+          {
+            id: 15,
+            content: 'Numeral',
+            labels: ['#7159c1'],
+          },
+         
         ]
       },
     ];

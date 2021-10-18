@@ -5,17 +5,19 @@ import { Container } from "./styles";
 import Canario from "../../assets/Canario.svg";
 import Stars from "../../assets/Stars.svg";
 
-function Cards() {
+export default function Cards({ data }) {
   return (
-    <Container>
+    <Container background="#ffffff">
+      
       <header>
-        <img src={Canario} />
+        <img src={data.user} />
       </header>
 
-      <p>Substantivo</p>
+      <p>{data.content}</p>
       <img id="stars" src={Stars} />
     </Container>
   );
 }
 
-export default Cards;
+ 
+
