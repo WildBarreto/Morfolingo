@@ -1,20 +1,20 @@
 import React from "react";
 
-import { Container } from "./styles";
+import { Container, Header } from "./styles";
 
 import Canario from "../../assets/Canario.svg";
 import Stars from "../../assets/Stars.svg";
 
 export default function Cards({ data }) {
   return (
-    <Container background="#ffffff">
+    <Container background={data.labels}> {/*Passar a cor que está no api.js*/ }
       
-      <header>
+      <Header background={data.perfil}>
         <img src={data.user} />
-      </header>
+      </Header>
 
       <p>{data.content}</p>
-      <img id="stars" src={Stars} />
+      <img id="stars" src={data.stars} />
     </Container>
   );
 }

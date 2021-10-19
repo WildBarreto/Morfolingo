@@ -7,7 +7,9 @@ export const Container = styled.div`
   margin-left: 50%;
   top: 443.09px;
   margin-bottom: 10px;
-  background: #5acc05;
+  background: ${props => `${props.background}`};//recebe a passada na propridade background do container do card 
+ // background: #5acc05;
+
   border-radius: 12px;
 
   grid-column-gap: 11px;
@@ -46,17 +48,7 @@ export const Container = styled.div`
   }
 
   header {
-    position: relative;
-    width: 150px;
-    height: 121.49px;
-    top: 0px;
-
-    background: rgba(152, 247, 82, 0.85);
-    border: 6px solid #ffffff;
-    box-sizing: border-box;
-    border-radius: 12px;
-    display: flex;
-    justify-content: center;
+    
     
   }
 
@@ -64,4 +56,19 @@ export const Container = styled.div`
     margin-top: 50px;
   }
   
+`;
+
+export const Header = styled.div`
+
+position: relative;
+    width: 150px;
+    height: 121.49px;
+    top: 0px;
+    
+    background: ${props => `${props.background}`};// rgba(152, 247, 82, 0.85);
+    border: 6px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
 `;
