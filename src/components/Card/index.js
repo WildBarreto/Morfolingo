@@ -1,46 +1,52 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 
-import { Container, Header } from "./styles";
+import { Container, Header,Container2 } from "./styles";
 
 import Modal from "../Modal";
 import { render } from "@testing-library/react";
 import { useModalContext } from "../../context/modalContext";
 
-
-
 export default function Cards({ data }) {
-  const [modalOn, setModal] = useState(false);
+  /*
+  const [modalOn, setModal] = React.useState(false);
 
-  const modal = (props) => {
-    if (modalOn == true) {
-      render(<Modal />);
-    } else {
-      render(null);
-    }
-  };
-
-  const mudal = () => {
+  const modal = () => {
+    console.log(modalOn)
     if(modalOn == true){
       render(<Modal />);
-    }else{
-      setModal(true)
-     
+    }else {
+      
     }
    
+  };*/
+
+  const dropDownRef = useRef(null);
+
+  const [isActive, setIsActive] = useState(false);
+  const onClick = () => setIsActive(!isActive);
+
+  const modal = () => {
+    if ((isActive = true)) {
+      render();
+    }
   };
 
-  //const { openModal } = useModalContext();
-  //const testeModal = () => openModal();
-
+  console.log(isActive);
   return (
-    <Container onClick={() => mudal()} background={data.labels}>
-      {" "}
-      {/*Passar a cor que está no api.js*/}
-      <Header background={data.perfil}>
-        <img src={data.user} />
-      </Header>
-      <p>{data.content}</p>
-      <img id="stars" src={data.stars} />
-    </Container>
+   
+      
+      <Container background={data.labels}>
+     
+        {/*Passar a cor que está no api.js*/}
+        <Header onClick={onClick} background={data.perfil}>
+          <img src={data.user} />
+        </Header>
+
+        <p>{data.content}</p>
+
+        <img id="stars" src={data.stars} />
+        {isActive ? <Modal /> : ""}
+      </Container>
+    
   );
 }

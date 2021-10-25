@@ -7,7 +7,7 @@ export const Container = styled.div`
   flex: 0 0 320px;
   
 
-  & {
+  &  {
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
    
   }

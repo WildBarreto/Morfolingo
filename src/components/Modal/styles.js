@@ -1,18 +1,22 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
   position: absolute;
-  align-self: center;
+  z-index: 1;
+ 
   width: 350px;
   height: 150px;
-  left: 43%;
-  top: 250px;
+ 
+  margin-top: 100px;
   background: rgba(152, 246, 82, 0.94);
   border: 1px solid rgba(0, 0, 0, 0.42);
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
-  justify-content: space-between;
+  //justify-content: space-between;
 
   button {
     
