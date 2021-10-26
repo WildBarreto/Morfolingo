@@ -1,10 +1,11 @@
 import React, { useRef, useState } from "react";
 
-import { Container, Header,Container2 } from "./styles";
+import { Container, Header, Container2 } from "./styles";
 
 import Modal from "../Modal";
 import { render } from "@testing-library/react";
-import { useModalContext } from "../../context/modalContext";
+
+
 
 export default function Cards({ data }) {
   /*
@@ -33,20 +34,19 @@ export default function Cards({ data }) {
 
   console.log(isActive);
   return (
-   
-      
-      <Container background={data.labels}>
+    <Container background={data.labels}>
+      {isActive ? <Modal background={data.labels}/> : ""}
+
      
-        {/*Passar a cor que está no api.js*/}
-        <Header onClick={onClick} background={data.perfil}>
-          <img src={data.user} />
-        </Header>
+      {/*Passar a cor que está no api.js*/}
+      <Header onClick={onClick} background={data.perfil}>
+        
+        <img src={data.user} />
+      </Header>
 
-        <p>{data.content}</p>
+      <p>{data.content}</p>
 
-        <img id="stars" src={data.stars} />
-        {isActive ? <Modal /> : ""}
-      </Container>
-    
+      <img id="stars" src={data.stars} />
+    </Container>
   );
 }

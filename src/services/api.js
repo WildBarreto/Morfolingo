@@ -3,6 +3,11 @@ import boy from "../assets/boy.svg";
 import boy2 from "../assets/boy 2.svg";
 import Canario from "../assets/Canario.svg";
 import Stars from "../assets/Stars.svg";
+import Stars1 from "../assets/Stars1.svg";
+import Stars3 from "../assets/Stars3.svg";
+import Stars0 from "../assets/Stars0.svg";
+
+
 import girl1 from "../assets/girl1.svg"
 import girl2 from "../assets/girl2.svg"
 
@@ -18,7 +23,7 @@ export function loadLists() {
           labels: [" #5acc05"],
           perfil: ["rgba(152, 247, 82, 0.85)"],
           user: idosa,
-          stars: Stars,
+          stars: Stars3,
         },
         {
           id: 2,
@@ -34,9 +39,11 @@ export function loadLists() {
           labels: ["#5acc05"],
           perfil: ["rgba(152, 247, 82, 0.85)"],
           user: boy2,
-          stars: Stars,
+          stars: Stars1,
         },
       ],
+
+      
     },
 
     {
@@ -50,7 +57,7 @@ export function loadLists() {
           labels: ["#1CB0F6"],
           perfil: ["#8DD8FB"],
           user: Canario,
-          stars: Stars,
+          stars: Stars0,
         },
         {
           id: 12,
@@ -58,7 +65,7 @@ export function loadLists() {
           labels: ["#54e1f7"],
           perfil: ["#8DD8FB"],
           user: girl1,
-          stars: Stars,
+          stars: Stars0,
         },
         {
           id: 13,
@@ -67,7 +74,7 @@ export function loadLists() {
           perfil: ["rgba(152, 247, 82, 0.85)"],
           perfil: ["#8DD8FB"],
           user: girl2,
-          stars: Stars,
+          stars: Stars0,
         },
         {
           id: 14,
@@ -75,7 +82,7 @@ export function loadLists() {
           labels: ["#1CB0F6"],
           perfil: ["#8DD8FB"],
           user: idosa,
-          stars: Stars,
+          stars: Stars0,
         },
         {
           id: 15,
@@ -83,9 +90,10 @@ export function loadLists() {
           labels: ["#1CB0F6"],
           perfil: ["#8DD8FB"],
           user: Canario,
-          stars: Stars,
+          stars: Stars0,
         },
       ],
+      
     },
 
     /*  { 

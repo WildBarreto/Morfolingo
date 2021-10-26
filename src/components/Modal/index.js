@@ -1,22 +1,20 @@
-import React from 'react';
+import React, { useRef, useState } from "react";
+import Teoria from "../Teoria";
 
-import { Container } from './styles';
+import { Container } from "./styles";
+
+import { render } from "@testing-library/react";
 
 
 
-function Modal() {
-//const { modalState: { visible}, closeModal} = useModalContext();
+
+export default function Modal() {
+  //const { modalState: { visible}, closeModal} = useModalContext();
 
   return (
-      <Container >
-          <button>
-              Aprender
-          </button>
-          <button>
-              Praticar
-          </button>
-      </Container>
+    <Container >
+      <button onClick={ <Teoria/>}>Aprender</button>
+      <button>Praticar</button>
+    </Container>
   );
 }
-
-export default Modal;

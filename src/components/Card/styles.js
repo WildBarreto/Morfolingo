@@ -5,7 +5,7 @@ export const Container = styled.div`
   
   width: 170px;
   height: 200px;
-  margin-left: 50%;
+  margin-left: 30%;
   top: 443.09px;
   margin-bottom: 10px;
   background: ${props => `${props.background}`};//recebe a passada na propridade background do container do card 
@@ -17,11 +17,13 @@ export const Container = styled.div`
   display: grid;
   grid-auto-columns: calc(33.33333% - 8px);
   grid-auto-flow: column;
-  justify-content: center;
+  justify-content: space-evenly;
 
   cursor: pointer;
   
   padding: 11px ;
+
+  
   
   img {
    
@@ -35,11 +37,19 @@ export const Container = styled.div`
   }
 
   p {
+    
+    margin: 0;
+  position: absolute;
+  top: 78%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+
     width: 167.6px;
     height: 32.79px;
     position: relative;
-    top: 120px;
-    right: 34px;
+    
+    //top: 120px;
+    right: 15px;
     font-size: 14px 'Nunito', 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -105,6 +115,10 @@ position: relative;
     border-radius: 12px;
     display: flex;
     justify-content: center;
+
+    &:hover {
+      filter: brightness(0.9);
+    }
 `;
 
 export const Container2 = styled.div`
