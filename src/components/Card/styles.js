@@ -1,15 +1,14 @@
-import react from "react";
 import styled from "styled-components";
 
 export const Container = styled.div`
-  
+  //position: static;
   width: 170px;
   height: 200px;
   margin-left: 30%;
   top: 443.09px;
-  margin-bottom: 10px;
-  background: ${props => `${props.background}`};//recebe a passada na propridade background do container do card 
- // background: #5acc05;
+  margin-bottom: 30px;
+  background: ${(props) => `${props.background}`}; //recebe a passada na propridade background do container do card
+  // background: #5acc05;
 
   border-radius: 12px;
 
@@ -20,37 +19,33 @@ export const Container = styled.div`
   justify-content: space-evenly;
 
   cursor: pointer;
-  
-  padding: 11px ;
 
-  
-  
+  padding: 11px;
+
   img {
-   
     width: 60px;
   }
-  #stars{
+  #stars {
     width: 90px;
     top: 155px;
     position: relative;
-    right: 70px;
+    right: 50px;
   }
 
   p {
-    
-    margin: 0;
-  position: absolute;
-  top: 78%;
-  left: 80%;
-  transform: translate(-50%, -50%);
+    margin: auto;
+    position: absolute;
+    top: 65px;
+    left: 90px;
+    transform: translate(-50%, -50%);
 
     width: 167.6px;
     height: 32.79px;
     position: relative;
-    
+
     //top: 120px;
     right: 15px;
-    font-size: 14px 'Nunito', 'Nunito', sans-serif;
+    font-size: 14px "Nunito", "Nunito", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 20px;
@@ -60,36 +55,37 @@ export const Container = styled.div`
   }
 
   header {
-    
-    
   }
 
-  ul{
+  ul {
     margin-top: 50px;
   }
 
   button {
-    
-    align-self: flex-end;
-    margin:  20px;
+    position: relative;
+    z-index: 1;
+    //align-self: flex-end;
+    //margin: 50px;
+    top: 200px;
+    right: 145px;
     cursor: pointer;
-    
+    margin-bottom: 20px;
     height: 40px;
     color: #fff;
     font-size: 14px;
     font-weight: bold;
-    text-transform: uppercase;
+    //text-transform: uppercase;
     text-decoration: none;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    width: 315.47px;
+    width: 180px;
     height: 43.86px;
-    left: 432.34px;
+    //left: 132.34px;
 
-    background: #5acc05;
+    background: ${(props) => `${props.background}`}; // #5acc05;
     border: 5px solid rgba(0, 0, 0, 0.11);
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -99,31 +95,22 @@ export const Container = styled.div`
       filter: brightness(0.9);
     }
   }
-  
 `;
 
 export const Header = styled.div`
+  position: static;
+  width: 150px;
+  height: 121.49px;
+  top: 0px;
+  margin-left: 25px;
+  background: ${(props) => `${props.background}`}; // rgba(152, 247, 82, 0.85);
+  border: 6px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
 
-position: relative;
-    width: 150px;
-    height: 121.49px;
-    top: 0px;
-    
-    background: ${props => `${props.background}`};// rgba(152, 247, 82, 0.85);
-    border: 6px solid #ffffff;
-    box-sizing: border-box;
-    border-radius: 12px;
-    display: flex;
-    justify-content: center;
-
-    &:hover {
-      filter: brightness(0.9);
-    }
+  &:hover {
+    filter: brightness(0.9);
+  }
 `;
-
-export const Container2 = styled.div`
-  
-`;
-
-
-

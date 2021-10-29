@@ -12,10 +12,10 @@ export default function Header() {
     <Container>
       <h1>Morfolingo</h1>
 
-      <img id="star" src={star}></img>
+      <img id="star" src={star} alt=""></img>
       <span id="cont">10</span>
       <div id="userImage">
-       <img id="perfil" src={boy}></img>
+       <img id="perfil" src={boy} alt=""></img>
       </div>
     </Container>
   );

@@ -10,7 +10,7 @@ export const Container = styled.div`
   z-index: 1;
 
   p {
-    width:900px;
+    width: 900px;
     // height: 68.66px;
     margin-left: 200px;
     //padding: auto;

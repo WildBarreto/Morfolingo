@@ -15,10 +15,19 @@ function List({ data }) {
       </header>
 
       <ul class="grid grid-template-rows-2">
-        {data.cards.map(card => <Card key={card.id} data={card}/>)}
+      {data.cards.map(card => <Card key={card.id} data={card}/>)}
       </ul>
 
-     {/*  <section class="grid grid-template-rows-2">
+     
+    </Container>
+  );
+}
+
+export default List;
+
+
+
+{/*  <section class="grid grid-template-rows-2">
         <div class="item">
           <Card />
         </div>
@@ -40,8 +49,3 @@ function List({ data }) {
         </div>
       </section>
       */}
-    </Container>
-  );
-}
-
-export default List;

@@ -3,7 +3,7 @@ import { Container } from "./styles";
 
 import { BiArrowBack } from "react-icons/bi";
 
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Teoria() {
   return (

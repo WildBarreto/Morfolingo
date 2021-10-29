@@ -4,9 +4,10 @@ import GlobalStyle from "./styles/global";
 import Header from "./components/Header";
 import Board from "./components/Board";
 import Teoria from "./components/Teoria";
+import Teoria2 from "./components/Teoria2";
 import Modal from "./components/Modal";
 
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       
           <Route component={Teoria} path="/Teoria" />
           <Route component = { Modal }  path="/Modal" />
+          <Route component={Teoria2} path="/Teoria2" />
        
       </Router>
     </>

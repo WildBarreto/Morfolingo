@@ -4,10 +4,7 @@ import './index.css';
 import App from './App';
 
 import {
-  BrowserRouter,
-  Switch,
-  Route,
-  Link
+  BrowserRouter
 } from "react-router-dom";
 
 ReactDOM.render(

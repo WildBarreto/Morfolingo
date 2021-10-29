@@ -24,6 +24,7 @@ export function loadLists() {
           perfil: ["rgba(152, 247, 82, 0.85)"],
           user: idosa,
           stars: Stars3,
+          teoria: "/teoria"
         },
         {
           id: 2,
@@ -32,6 +33,7 @@ export function loadLists() {
           perfil: ["rgba(152, 247, 82, 0.85)"],
           user: boy,
           stars: Stars,
+          teoria: "/teoria2"
         },
         {
           id: 3,
@@ -40,6 +42,7 @@ export function loadLists() {
           perfil: ["rgba(152, 247, 82, 0.85)"],
           user: boy2,
           stars: Stars1,
+          teoria: "/teoria2"
         },
       ],
 
@@ -71,7 +74,6 @@ export function loadLists() {
           id: 13,
           content: "Pronome",
           labels: ["#1CB0F6"],
-          perfil: ["rgba(152, 247, 82, 0.85)"],
           perfil: ["#8DD8FB"],
           user: girl2,
           stars: Stars0,
@@ -95,6 +97,9 @@ export function loadLists() {
       ],
       
     },
+    
+
+
 
     /*  { 
         title: 'Classificação', 

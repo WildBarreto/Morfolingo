@@ -2,14 +2,11 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   padding: 0 15px;
-  height: 50%;
+  height: 900px;
  
   flex: 0 0 320px;
 
   align-content: center;
-  
-  
-  
 
   .grid {
 	display: grid;
@@ -17,7 +14,7 @@ export const Container = styled.div`
 }
 
 .grid-template-rows-2 {
-	grid-template-rows: 230px 230px;
+	grid-template-rows: 280px 280px;
 }
 .grid {
 	max-width: 400px;
@@ -27,8 +24,8 @@ export const Container = styled.div`
 
 h2 {
   text-align: center;
-   margin: auto ;
-   padding: auto;
+   margin: 20px auto ;
+   padding: auto 30px auto;
    width: 514.94px;
    height: 68.66px;
    font-size:  'Nunito', 'Nunito', sans-serif;
