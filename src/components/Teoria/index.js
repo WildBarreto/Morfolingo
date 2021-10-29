@@ -3,10 +3,18 @@ import { Container } from "./styles";
 
 import { BiArrowBack } from "react-icons/bi";
 
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
 function Teoria() {
   return (
     <Container>
-      <button id="voltar"><BiArrowBack size={24} color="#1cb0f6"/>Voltar</button>
+      <button id="voltar">
+        <BiArrowBack size={24} color="#1cb0f6" />
+        <Link to="/" style={{ textDecoration: "none", color: "#1cb0f6" }}>
+        Voltar{" "}
+        </Link>
+       
+      </button>
       <button id="pratica">Praticar</button>
       <h2>Substantivos</h2>
       <p>

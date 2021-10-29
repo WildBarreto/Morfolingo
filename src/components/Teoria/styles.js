@@ -2,11 +2,12 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   position: absolute;
-  margin-top: -30px;
+  margin-top: -1300px;
   background: #ecf1f8;
   width: 100%;
   height: 200%;
   text-align: justify;
+  z-index: 1;
 
   p {
     width: 900px;
