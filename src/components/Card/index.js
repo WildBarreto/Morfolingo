@@ -26,7 +26,7 @@ export default function Cards({ data }) {
   console.log(isActive);
   return (
     <Container background={data.labels}>
-      {/*isActive ? <Modal background={data.labels} /> : ""*/}
+      {/*isActive ? <Modal background={data.labels} /> : ""*//*Função para ativar o modal  */}
      
         {/*Passar a cor que está no api.js*/}
         <Header onClick={onClick} background={data.perfil}>

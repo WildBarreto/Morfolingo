@@ -4,8 +4,11 @@ import GlobalStyle from "./styles/global";
 import Header from "./components/Header";
 import Board from "./components/Board";
 import Teoria from "./components/Teoria";
-import Teoria2 from "./components/Teoria2";
+import Prefixo from "./components/Teoria/prefixos";
+import Sufixo from "./components/Teoria/sufixo";
 import Modal from "./components/Modal";
+
+import Radical from './components/Teoria/radical'
 
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
@@ -21,7 +24,9 @@ function App() {
       
           <Route component={Teoria} path="/Teoria" />
           <Route component = { Modal }  path="/Modal" />
-          <Route component={Teoria2} path="/Teoria2" />
+          <Route component={Prefixo} path="/Prefixo" />
+          <Route component={Sufixo} path="/Sufixo" />
+          <Route component={Radical} path="/Radical" />
        
       </Router>
     </>

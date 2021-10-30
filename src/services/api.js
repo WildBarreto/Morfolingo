@@ -24,25 +24,25 @@ export function loadLists() {
           perfil: ["rgba(152, 247, 82, 0.85)"],
           user: idosa,
           stars: Stars3,
-          teoria: "/teoria"
+          teoria: "/Radical"
         },
         {
           id: 2,
-          content: "Sufixo",
+          content: "Prefixo",
           labels: ["#5acc05"],
           perfil: ["rgba(152, 247, 82, 0.85)"],
           user: boy,
           stars: Stars,
-          teoria: "/teoria2"
+          teoria: "/Prefixo"
         },
         {
           id: 3,
-          content: "Préfixo",
+          content: "Sufixo",
           labels: ["#5acc05"],
           perfil: ["rgba(152, 247, 82, 0.85)"],
           user: boy2,
           stars: Stars1,
-          teoria: "/teoria2"
+          teoria: "/Sufixo"
         },
       ],
 

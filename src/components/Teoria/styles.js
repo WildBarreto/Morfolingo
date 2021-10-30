@@ -21,7 +21,7 @@ export const Container = styled.div`
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    //line-height: 40px;
+    line-height: 35px;
 
     color: rgb(75, 75, 75);
   }
