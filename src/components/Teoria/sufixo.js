@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "../Teoria2/styles";
+import { Container } from "../Teoria/styles";
 
 import { BiArrowBack } from "react-icons/bi";
 

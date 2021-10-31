@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "./styles";
+import { Container } from "../Teoria/styles";
 
 import { BiArrowBack } from "react-icons/bi";
 
@@ -19,13 +19,14 @@ function Teoria() {
       <h2>Substantivos</h2>
       <p>
         Pertencem a essa classe todas as palavras que designam os seres em
-        geral, as entidades reais ou imagináveis. Exemplos: mesa, lua, luz,
+        geral, as entidades reais ou imagináveis.<br/> 
+        <b>Exemplos:</b> mesa, lua, luz,
         fada, centauro, ilusão, tristeza.
         <br />
         <br />
         O substantivo dificilmente aparecerá sozinho na frase, pois ele possui
         várias palavras que orbitam a seu redor. São os chamados satélites do
-        substantivo: artigos, pronomes, numerais, adjetivos.
+        substantivo:  <b>artigos</b>,  <b>pronomes</b>,  <b>numerais</b>,  <b>adjetivos</b>.
         <br /> A conclusão bem simples é que, para transformar uma palavra em
         substantivo, basta que a determinemos com os satélites artigos,
         numerais, pronomes e adjetivos.
@@ -35,12 +36,12 @@ function Teoria() {
         O substantivo simples é formado por apenas um radical (pedra, plano,
         guarda, água, etc.), ao passo que o substantivo composto é formado por
         mais de um radical (petróleo = pedra + óleo; planalto = plano + alto;
-        guardachuva = guarda + chuva; aguardente = água + ardente).
+        guarda-chuva = guarda + chuva; aguardente = água + ardente).
       </p>
       <h3>Primitivo X Derivado</h3>
       <p>
         O primitivo dá origem ao derivado. O primeiro não possui afixos (pedra),
-        ao passo que o segundo sim (pedreiro).
+        ao passo que o segundo sim ( pedr<b>eiro</b> ).
       </p>
       <h3>Comum x Próprio x Coletivo</h3>
       <p>

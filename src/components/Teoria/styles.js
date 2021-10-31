@@ -5,10 +5,10 @@ export const Container = styled.div`
   margin-top: -1597px;
   background: #ecf1f8;
   width: 100%;
-  height: 250%;
+  height: 270%;
   text-align: justify;
   z-index: 1;
-
+  
   p {
     width:900px;
     // height: 68.66px;

@@ -61,6 +61,16 @@ export function loadLists() {
           perfil: ["#8DD8FB"],
           user: Canario,
           stars: Stars0,
+          teoria: "/Substantivo"
+        },
+        {
+          id: 10,
+          content: "Verbo",
+          labels: ["#1CB0F6"],
+          perfil: ["#8DD8FB"],
+          user: Canario,
+          stars: Stars0,
+          teoria: "/Verbo"
         },
         {
           id: 12,
@@ -69,6 +79,7 @@ export function loadLists() {
           perfil: ["#8DD8FB"],
           user: girl1,
           stars: Stars0,
+          teoria: "/Adjetivo"
         },
         {
           id: 13,
@@ -77,6 +88,7 @@ export function loadLists() {
           perfil: ["#8DD8FB"],
           user: girl2,
           stars: Stars0,
+          teoria: "/Pronome"
         },
         {
           id: 14,
@@ -85,6 +97,7 @@ export function loadLists() {
           perfil: ["#8DD8FB"],
           user: idosa,
           stars: Stars0,
+          teoria: "/Artigo"
         },
         {
           id: 15,
@@ -93,6 +106,7 @@ export function loadLists() {
           perfil: ["#8DD8FB"],
           user: Canario,
           stars: Stars0,
+          teoria: "/Numeral"
         },
       ],
       
