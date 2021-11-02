@@ -11,22 +11,23 @@ function Teoria() {
       <button id="voltar">
         <BiArrowBack size={24} color="#1cb0f6" />
         <Link to="/" style={{ textDecoration: "none", color: "#1cb0f6" }}>
-        Voltar{" "}
+          Voltar{" "}
         </Link>
-       
       </button>
-      <button id="pratica">Praticar</button>
+      <Link to="/Atividade" style={{ textDecoration: "none", color: "#1cb0f6" }}>
+        <button id="pratica">Praticar</button>{" "}
+      </Link>
       <h2>Substantivos</h2>
       <p>
         Pertencem a essa classe todas as palavras que designam os seres em
-        geral, as entidades reais ou imagináveis.<br/> 
-        <b>Exemplos:</b> mesa, lua, luz,
-        fada, centauro, ilusão, tristeza.
+        geral, as entidades reais ou imagináveis.
         <br />
+        <b>Exemplos:</b> mesa, lua, luz, fada, centauro, ilusão, tristeza.
         <br />
-        O substantivo dificilmente aparecerá sozinho na frase, pois ele possui
-        várias palavras que orbitam a seu redor. São os chamados satélites do
-        substantivo:  <b>artigos</b>,  <b>pronomes</b>,  <b>numerais</b>,  <b>adjetivos</b>.
+        <br />O substantivo dificilmente aparecerá sozinho na frase, pois ele
+        possui várias palavras que orbitam a seu redor. São os chamados
+        satélites do substantivo: <b>artigos</b>, <b>pronomes</b>,{" "}
+        <b>numerais</b>, <b>adjetivos</b>.
         <br /> A conclusão bem simples é que, para transformar uma palavra em
         substantivo, basta que a determinemos com os satélites artigos,
         numerais, pronomes e adjetivos.

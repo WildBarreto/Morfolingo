@@ -12,13 +12,15 @@ export default createGlobalStyle`
 
 html, border-style, #root {
     height: 100%;
+   
     
 }
 
 body {
     font-size: 14px 'Nunito', 'Nunito', sans-serif;
     background: #ecf1f8;
-    color: #3333;
+    color:  rgb(75, 75, 75);
+    //color: #3333;
     -webkit-font-smoothing: antialised !important; 
 }
 
