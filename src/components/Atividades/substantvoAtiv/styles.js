@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+
 position: absolute;
   margin-top: -1597px;
   background: #ecf1f8;
@@ -8,6 +9,7 @@ position: absolute;
   height: 250%;
   text-align: justify;
   z-index: 1;
+
   #close {
     position: absolute;
     left: 120px;
@@ -42,8 +44,7 @@ position: absolute;
     height: 40px;
 
     right: 270px;
-    top: 320px;
-   
+    top: 330px;
 
     font-size: "Nunito", "Nunito", sans-serif;
     font-style: normal;
@@ -56,6 +57,7 @@ position: absolute;
       filter: brightness(0.9);
     }
   }
+  
 
   h2 {
     position: relative;
@@ -72,8 +74,8 @@ position: absolute;
 
   #content {
     margin-left: 300px;
-    position: absolute;
-    width: 70%;
+    position: relative;
+    width: 56%;
     height: 300px;
     //background: #c4c4c4;
   }
@@ -81,16 +83,42 @@ position: absolute;
   img{
     width: 200px;
   }
+  #medico{
+    width:90px;
+  }
+  #peixe{
+    
+    width: 200px;
+
+  }
+
+  #label{
+    color:  rgb(75, 75, 75);
+  }
 
   
+  label{
+    position: absolute;
+    color: rgb(75, 75, 75);
+    font-size: "Nunito", "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    top: 29%;
+  }
 
+  #close{
+    //position: absolute;
+    left: 80%;
+    top: 0%;
+  }
   textarea {
     position: absolute;
     width: 400px;
     height: 100px;
     //left: 18.33%;
-    right: 50%;
-   top: 73%;
+    right: 40%;
+    top: 73%;
     bottom: 28.6%;
     text-align: Left;
     

@@ -3,19 +3,17 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import { RiCloseLine } from "react-icons/ri";
-import Menino from "../../assets/MeninoCe3.svg";
+import Menino from "../../../../assets/MeninoCe3.svg";
 
-import { Container } from "./styles2";
+import { Container } from "../styles";
 
-import Mensagem from "../Mensagem";
-import { render } from "react-dom";
 
 function Atividades({ width, percent }) {
-  const [value, setValue] = React.useState(10);
+  /*const [value, setValue] = React.useState(10);
 
   React.useEffect(() => {
     setValue(percent * width);
-  });
+  });*/
 
   //const [isTe, setIsTe] = useState(+1);
   //const onClick = () => setValue();
@@ -25,29 +23,34 @@ function Atividades({ width, percent }) {
   //console.log(setValue);
   function verificar() {
     const test = nome;
-    if (test == "taxi" || test == "Taxi") {
-      //alert("Parabems você acertou: ");
-      return "/Message";
+    if (test === "beija-flor" || test === "Beija-flor") {
+      // alert("Parabems você acertou: ");
+      return "/Atividade5/AcertouSub5";
     } else {
-      // alert("tente novamente: ");
-      return "";
+      //alert("tente novamente: ");
+      return "/Atividade5/ErrouSub5";
     }
   }
 
-  
+
   return (
     <Container>
-      {/*<div>
-      <RiCloseLine id="close" size={34} color="#1cb0f6" />
+      <div>
+        <Link to={""} style={{ textDecoration: "none", color: "#fff" }}>
+          <RiCloseLine id="close" size={34} color="#1cb0f6" />
+        </Link>
+        {/*
         <div className="progress-div" style={{ width: width }}>
           <div style={{ width: `${value}px` }} className="progress" />
-        </div>
-      </div>*/}
+        </div>*/}
+      </div>
 
       <section id="content">
-        <h2>Atividade 2</h2>
-        
-        <img src={Menino} alt="estrelas" />
+        <h2>Digite o substantivo composto da frase abaixo:</h2>
+
+        <img  src={Menino} alt="estrelas" />
+
+        <label>Ontem vi um lindo Beija-flor!</label>
 
         <textarea
           rows="20"
@@ -59,7 +62,7 @@ function Atividades({ width, percent }) {
       </section>
 
       <Link to={verificar} style={{ textDecoration: "none", color: "#fff" }}>
-        <button type="submit" id="pratica" >
+        <button type="submit" id="pratica">
           Verificar
         </button>
       </Link>

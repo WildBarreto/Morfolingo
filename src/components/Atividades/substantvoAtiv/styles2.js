@@ -44,7 +44,7 @@ position: absolute;
     height: 40px;
 
     right: 270px;
-    top: 280px;
+    top: 330px;
 
     font-size: "Nunito", "Nunito", sans-serif;
     font-style: normal;
@@ -57,30 +57,7 @@ position: absolute;
       filter: brightness(0.9);
     }
   }
-  #pratica2 {
-    background: #1cb0f6;
-    color: #ecf1f8;
-    cursor: pointer;
-    border-radius: 20px;
-
-    position: absolute;
-    width: 120px;
-    height: 40px;
-
-    right: 270px;
-    top: 335px;
-
-    font-size: "Nunito", "Nunito", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-
-    border: none;
-
-    &:hover {
-      filter: brightness(0.9);
-    }
-  }
+  
 
   h2 {
     position: relative;
@@ -104,7 +81,7 @@ position: absolute;
   }
 
   img{
-    width: 200px;
+    width: 90px;
   }
 
   #label{
