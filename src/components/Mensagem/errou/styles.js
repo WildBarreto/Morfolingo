@@ -39,13 +39,13 @@ h1{
 
 p {
   position: absolute;
-    width: 300px;
+    width: 93%;
    
     left: 10px;
-    top: 5px;
+    top: 2px;
     
     text-indent: 10px;
-    //text-align: justify;
+    text-align: justify;
     //letter-spacing: 1px;
     font-size: "Nunito", "Nunito", sans-serif;
     font-style: normal;
@@ -61,6 +61,11 @@ p {
   top: 60px;
   left: 80px;
 }
+#lampi{
+  position: absolute;
+  left: -10px;
+    width: 20px;
+  }
 
 #icon{
     background: #ecf1f8;

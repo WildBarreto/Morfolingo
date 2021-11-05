@@ -32,6 +32,7 @@ function Atividades({ width, percent }) {
   }
 
   return (
+    
     <Container>
       <div>
         <Link to={""} style={{ textDecoration: "none", color: "#fff" }}>
@@ -65,6 +66,9 @@ function Atividades({ width, percent }) {
         </button>
       </Link>
     </Container>
+
+    
+   
   );
 }
 

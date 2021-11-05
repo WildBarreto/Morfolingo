@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 
 import { RiCloseLine } from "react-icons/ri";
 import { GiLightBulb } from "react-icons/gi";
+import Lamp from "../../../../../assets/Lamp.svg";
 
 function Mensagem() {
   return (
@@ -17,7 +18,8 @@ function Mensagem() {
       <h1>Tente novamente!</h1>
 
       <div id="dica">
-        <GiLightBulb id="lamp" size={25} color=" #FFD800" />
+        {/*<GiLightBulb id="lamp" size={25} color=" #FFD800" />*/}
+        <img id="lampi" src={Lamp} />
         <p>
           Pertencem a essa classe todas as palavras que designam os seres em
           geral, as entidades reais ou imagináveis.{" "}

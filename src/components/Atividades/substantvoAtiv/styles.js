@@ -87,11 +87,13 @@ position: absolute;
     width:90px;
   }
   #peixe{
-    
     width: 200px;
-
   }
-
+#navio{
+  position: relative;
+  top: -20px;
+}
+  
   #label{
     color:  rgb(75, 75, 75);
   }

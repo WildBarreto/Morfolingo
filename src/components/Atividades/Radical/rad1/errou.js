@@ -19,12 +19,15 @@ function Mensagem() {
       <h1>Tente novamente!</h1>
 
       <div id="dica">
-         {/*<GiLightBulb id="lamp" size={25} color=" #FFD800" />*/}
+        {/*<GiLightBulb id="lamp" size={25} color=" #FFD800" />*/}
         <img id="lampi" src={Lamp} />
-        <p>O substantivo próprio designa um ser específico da classe.</p>
+        <p>
+          É o elemento comum de palavras cognatas, também chamadas de palavras
+          da mesma família. É responsável pelo significado básico da palavra.
+        </p>
       </div>
 
-      <Link to={"/Atividade2"} style={{ textDecoration: "none", color: "#fff" }}>
+      <Link to={"/Radical1"} style={{ textDecoration: "none", color: "#fff" }}>
         <button>Tentar</button>
       </Link>
     </Container>

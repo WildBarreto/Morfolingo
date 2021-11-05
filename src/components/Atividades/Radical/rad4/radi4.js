@@ -3,9 +3,9 @@ import React, { useState } from "react";
 import {  BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import { RiCloseLine } from "react-icons/ri";
-import Medico from "../../../../assets/Medico.svg";
+import Navio from "../../../../assets/Navio.svg";
 
-import { Container } from "../styles";
+import { Container } from "../../substantvoAtiv/styles";
 
 function Atividades({ width, percent }) {
   /*const [value, setValue] = React.useState(10);
@@ -22,12 +22,12 @@ function Atividades({ width, percent }) {
   //console.log(setValue);
   function verificar() {
     const test = nome;
-    if (test === "pedro" || test === "Pedro") {
+    if (test === "nav" || test === "Nav") {
       // alert("Parabems você acertou: ");
-      return "/Atividade2/AcertouSub2";
+      return "/Radical4/RadCerto4";
     } else {
       //alert("tente novamente: ");
-      return "/Atividade2/ErrouSub2";
+      return "/Radical4/RadErrado4";
     }
   }
 
@@ -44,11 +44,11 @@ function Atividades({ width, percent }) {
       </div>
 
       <section id="content">
-        <h2>Digite o substantivo proprio da frase abaixo:</h2>
+        <h2>Digite o radical das palavras abaixo:</h2>
 
-        <img id="medico" src={Medico} alt="estrelas" />
+        <img id="navio" src={Navio} alt="estrelas" />
        
-          <label>Olá me chamo Pedro, eu sou médico!</label>
+          <label>Navio, navegação, navegante</label>
        
         <textarea
           rows="20"

@@ -7,6 +7,8 @@ import { Link } from "react-router-dom";
 import { RiCloseLine } from "react-icons/ri";
 import { GiLightBulb } from "react-icons/gi";
 
+import Lamp from "../../../../assets/Lamp.svg";
+
 function Mensagem() {
   return (
     <Container>
@@ -17,7 +19,8 @@ function Mensagem() {
       <h1>Tente novamente!</h1>
 
       <div id="dica">
-        <GiLightBulb id="lamp" size={25} color=" #FFD800" />
+        {/*<GiLightBulb id="lamp" size={25} color=" #FFD800" />*/}
+        <img id="lampi" src={Lamp} />
         <p>O substantivo coletivo designa uma coleção de seres da mesma espécie.</p>
       </div>
 

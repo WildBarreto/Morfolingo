@@ -14,7 +14,12 @@ function Teoria() {
           Voltar{" "}
         </Link>
       </button>
-      <button id="pratica">Praticar</button>
+      <Link
+        to="/Radical1"
+        style={{ textDecoration: "none", color: "#1cb0f6" }}
+      >
+        <button id="pratica">Praticar</button>{" "}
+      </Link>
       <h2>Radical</h2>
       <p>
         É o elemento comum de palavras cognatas, também chamadas de palavras da
