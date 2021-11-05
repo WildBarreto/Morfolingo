@@ -22,7 +22,7 @@ import Numeral from "./components/Teoria2/numeral";
 //Mensagens de ERRO e de ACERTO das atividades
 import Message from "./components/Mensagem/acertou/acertou";
 import Message2 from "./components/Mensagem/errou/errou";
-
+/*==================================================================== =================*/
 //Imjportação das atividades
 import Atividades from "./components/Atividades/substantvoAtiv/sub1/atividade1"; //Atividade 1
 import AcertouSub1 from "./components/Atividades/substantvoAtiv/sub1/acertou/acertou"; //Atividade 1
@@ -45,9 +45,9 @@ import ErrouSub4 from "./components/Atividades/substantvoAtiv/sub4/errou"; //Ati
 import Atividades5 from "./components/Atividades/substantvoAtiv/sub5/atividade5";
 import AcertouSub5 from "./components/Atividades/substantvoAtiv/sub5/acertou"; //Atividade 4
 import ErrouSub5 from "./components/Atividades/substantvoAtiv/sub5/errou"; //Atividade 4
-
+/*==================================================================== ===============*/
 //Importação atividades sobre radical
-//radi1
+//Radi1
 import Radical1 from "./components/Atividades/Radical/rad1/radi1";
 import RadCerto1 from "./components/Atividades/Radical/rad1/acertou";
 import RadErrado1 from "./components/Atividades/Radical/rad1/errou";
@@ -67,8 +67,53 @@ import RadErrado4 from "./components/Atividades/Radical/rad4/errou";
 import Radical5 from "./components/Atividades/Radical/rad5/radi5";
 import RadCerto5 from "./components/Atividades/Radical/rad5/acertou";
 import RadErrado5 from "./components/Atividades/Radical/rad5/errou";
+/*==================================================================== */
+//Importação atividades sobre prefixo
+//Pref1
+import Prefixo1 from "./components/Atividades/Prefixo/pre1/pref1";
+import PreCerto1 from "./components/Atividades/Prefixo/pre1/acertou";
+import PreErrado1 from "./components/Atividades/Prefixo/pre1/errou";
 
+//Pref2
+import Prefixo2 from "./components/Atividades/Prefixo/pre2/pref2";
+import PreCerto2 from "./components/Atividades/Prefixo/pre2/acertou";
+import PreErrado2 from "./components/Atividades/Prefixo/pre2/errou";
+//Pref3
+import Prefixo3 from "./components/Atividades/Prefixo/pre3/pref3";
+import PreCerto3 from "./components/Atividades/Prefixo/pre3/acertou";
+import PreErrado3 from "./components/Atividades/Prefixo/pre3/errou";
+//Pref4
+import Prefixo4 from "./components/Atividades/Prefixo/pre4/pref4";
+import PreCerto4 from "./components/Atividades/Prefixo/pre4/acertou";
+import PreErrado4 from "./components/Atividades/Prefixo/pre4/errou";
+//Pref5
+import Prefixo5 from "./components/Atividades/Prefixo/pre5/pref5";
+import PreCerto5 from "./components/Atividades/Prefixo/pre5/acertou";
+import PreErrado5 from "./components/Atividades/Prefixo/pre5/errou";
 
+/*==================================================================== */
+//Importação atividades sobre prefixo
+//Pref1
+import Sufixo1 from "./components/Atividades/Sufixo/suf1/sufi1";
+import SufiCerto1 from "./components/Atividades/Sufixo/suf1/acertou";
+import SufiErrado1 from "./components/Atividades/Sufixo/suf1/errou";
+
+//Pref2
+import Sufixo2 from "./components/Atividades/Sufixo/suf2/sufi2";
+import SufiCerto2 from "./components/Atividades/Sufixo/suf2/acertou";
+import SufiErrado2 from "./components/Atividades/Sufixo/suf2/errou";
+//Pref3
+import Sufixo3 from "./components/Atividades/Sufixo/suf3/sufi3";
+import SufiCerto3 from "./components/Atividades/Sufixo/suf3/acertou";
+import SufiErrado3 from "./components/Atividades/Sufixo/suf3/errou";
+//Pref4
+import Sufixo4 from "./components/Atividades/Sufixo/suf4/sufi4";
+import SufiCerto4 from "./components/Atividades/Sufixo/suf4/acertou";
+import SufiErrado4 from "./components/Atividades/Sufixo/suf4/errou";
+//Pref5
+import Sufixo5 from "./components/Atividades/Sufixo/suf5/sufi5";
+import SufiCerto5 from "./components/Atividades/Sufixo/suf5/acertou";
+import SufiErrado5 from "./components/Atividades/Sufixo/suf5/errou";
 
 //IMportação dos componentes do router
 import { BrowserRouter as Router, Route } from "react-router-dom";
@@ -94,7 +139,7 @@ function App() {
         <Route component={Pronome} path="/Pronome" />
         <Route component={Artigo} path="/Artigo" />
         <Route component={Numeral} path="/Numeral" />
-
+        {/*==================================================================== */}
         {/*Rotas adas Atividades sobre radical*/}
 
         {/*Rotas das atividades sobre substantivos */}
@@ -118,7 +163,7 @@ function App() {
         <Route component={AcertouSub5} path="/Atividade5/AcertouSub5" />
         <Route component={ErrouSub5} path="/Atividade5/ErrouSub5" />
 
-        {/*============================================================================================== */}
+        {/*==================================================================== */}
         {/*Radical */}
         <Route component={Radical1} path="/Radical1" />
         <Route component={RadCerto1} path="/Radical1/RadCerto1" />
@@ -137,10 +182,61 @@ function App() {
         <Route component={Radical4} path="/Radical4" />
         <Route component={RadCerto4} path="/Radical4/RadCerto4" />
         <Route component={RadErrado4} path="/Radical4/RadErrado4" />
-        {/*Radical */}
+        {/*Radical 5*/}
         <Route component={Radical5} path="/Radical5" />
         <Route component={RadCerto5} path="/Radical5/RadCerto5" />
         <Route component={RadErrado5} path="/Radical5/RadErrado5" />
+
+        {/*==================================================================== */}
+        {/*Prefixo 1 */}
+        <Route component={Prefixo1} path="/Prefixo1" />
+        <Route component={PreCerto1} path="/Prefixo1/PreCerto1" />
+        <Route component={PreErrado1} path="/Prefixo1/PreErrado1" />
+        {/*Prefixo 2 */}
+        <Route component={Prefixo2} path="/Prefixo2" />
+        <Route component={PreCerto2} path="/Prefixo2/PreCerto2" />
+        <Route component={PreErrado2} path="/Prefixo2/PreErrado2" />
+
+        {/*Prefixo 3 */}
+        <Route component={Prefixo3} path="/Prefixo3" />
+        <Route component={PreCerto3} path="/Prefixo3/PreCerto3" />
+        <Route component={PreErrado3} path="/Prefixo3/PreErrado3" />
+
+        {/*Prefixo 4 */}
+        <Route component={Prefixo4} path="/Prefixo4" />
+        <Route component={PreCerto4} path="/Prefixo4/PreCerto4" />
+        <Route component={PreErrado4} path="/Prefixo4/PreErrado4" />
+
+        {/*Prefixo 5 */}
+        <Route component={Prefixo5} path="/Prefixo5" />
+        <Route component={PreCerto5} path="/Prefixo5/PreCerto5" />
+        <Route component={PreErrado5} path="/Prefixo5/PreErrado5" />
+
+        {/*==================================================================== */}
+        {/*Prefixo 1 */}
+        <Route component={Sufixo1} path="/Sufixo1" />
+        <Route component={SufiCerto1} path="/Sufixo1/Sufixo1" />
+        <Route component={SufiErrado1} path="/Sufixo1/SufiErrado1" />
+        {/*Prefixo 2 */}
+        <Route component={Sufixo2} path="/Sufixo2" />
+        <Route component={SufiCerto2} path="/Sufixo2/Sufixo2" />
+        <Route component={SufiErrado2} path="/Sufixo2/SufiErrado2" />
+
+        {/*Prefixo 3 */}
+        <Route component={Sufixo3} path="/Sufixo3" />
+        <Route component={SufiCerto3} path="/Sufixo3/Sufixo3" />
+        <Route component={SufiErrado3} path="/Sufixo3/SufiErrado3" />
+
+        {/*Prefixo 4 */}
+        <Route component={Sufixo4} path="/Sufixo4" />
+        <Route component={SufiCerto4} path="/Sufixo4/Sufixo4" />
+        <Route component={SufiErrado4} path="/Sufixo4/SufiErrado4" />
+
+        {/*Prefixo 5 */}
+        <Route component={Sufixo5} path="/Sufixo5" />
+        <Route component={SufiCerto5} path="/Sufixo5/Sufixo5" />
+        <Route component={SufiErrado5} path="/Sufixo5/SufiErrado5" />
+        
       </Router>
     </>
   );

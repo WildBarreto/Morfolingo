@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import {  BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import { RiCloseLine } from "react-icons/ri";
-import Medico from "../../../../assets/Medico.svg";
+import Programer from "../../../../assets/Programer.svg";
 
 import { Container } from "../../styles";
 
@@ -22,12 +22,12 @@ function Atividades({ width, percent }) {
   //console.log(setValue);
   function verificar() {
     const test = nome;
-    if (test === "medic" || test === "Medic") {
+    if (test === "anti" || test === "Anti") {
       // alert("Parabems você acertou: ");
-      return "/Radical1/RadCerto1";
+      return "/Prefixo4/PreCerto4";
     } else {
       //alert("tente novamente: ");
-      return "/Radical1/RadErrado1";
+      return "/Prefixo4/PreErrado4";
     }
   }
 
@@ -44,11 +44,11 @@ function Atividades({ width, percent }) {
       </div>
 
       <section id="content">
-        <h2>Digite o radical comum a todas as palavras abaixo:</h2>
+        <h2>Digite o prefixo da palavra em destaque abaixo abaixo:</h2>
 
-        <img id="medico" src={Medico} alt="estrelas" />
+        <img id="programer" src={Programer} alt="estrelas" />
        
-          <label>Médico, medicina e medicinal.</label>
+          <label>Preciso instalar um <u>ativírus</u> em meu computador.</label>
          
         <textarea
           rows="20"

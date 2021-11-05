@@ -14,7 +14,10 @@ function Teoria() {
           Voltar{" "}
         </Link>
       </button>
-      <button id="pratica">Praticar</button>
+      <Link to="/Prefixo1" style={{ textDecoration: "none", color: "#1cb0f6" }}>
+        <button id="pratica">Praticar</button>{" "}
+      </Link>
+
       <h2>Prefixo</h2>
       <p>
         Os prefixos são afixos que formam palavras a partir de um morfema que

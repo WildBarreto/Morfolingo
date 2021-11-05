@@ -5,7 +5,7 @@ import {  BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { RiCloseLine } from "react-icons/ri";
 import Medico from "../../../../assets/Medico.svg";
 
-import { Container } from "../styles";
+import { Container } from "../../styles";
 
 function Atividades({ width, percent }) {
   /*const [value, setValue] = React.useState(10);

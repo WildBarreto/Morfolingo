@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import {  BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import { RiCloseLine } from "react-icons/ri";
-import Medico from "../../../../assets/Medico.svg";
+import Atleta from "../../../../assets/atleta.svg";
 
 import { Container } from "../../styles";
 
@@ -22,12 +22,12 @@ function Atividades({ width, percent }) {
   //console.log(setValue);
   function verificar() {
     const test = nome;
-    if (test === "medic" || test === "Medic") {
+    if (test === "hiper" || test === "Hiper") {
       // alert("Parabems você acertou: ");
-      return "/Radical1/RadCerto1";
+      return "/Prefixo5/PreCerto5";
     } else {
       //alert("tente novamente: ");
-      return "/Radical1/RadErrado1";
+      return "/Prefixo5/PreErrado5";
     }
   }
 
@@ -44,11 +44,11 @@ function Atividades({ width, percent }) {
       </div>
 
       <section id="content">
-        <h2>Digite o radical comum a todas as palavras abaixo:</h2>
+        <h2>Digite o prefixo da palavra em destaque abaixo abaixo:</h2>
 
-        <img id="medico" src={Medico} alt="estrelas" />
+        <img id="navio" src={Atleta} alt="estrelas" />
        
-          <label>Médico, medicina e medicinal.</label>
+          <label>Fazer exercicios previne <u>hipertensão</u>.</label>
          
         <textarea
           rows="20"

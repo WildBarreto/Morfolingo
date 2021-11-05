@@ -93,6 +93,10 @@ position: absolute;
   position: relative;
   top: -20px;
 }
+#programer{
+  width: 200px;
+  margin-right: 10px;
+}
   
   #label{
     color:  rgb(75, 75, 75);

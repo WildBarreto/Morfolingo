@@ -5,7 +5,7 @@ import {  BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { RiCloseLine } from "react-icons/ri";
 import Enfermeira from "../../../../assets/Enfermeira.svg";
 
-import { Container } from "../../substantvoAtiv/styles";
+import { Container } from "../../styles";
 
 function Atividades({ width, percent }) {
   /*const [value, setValue] = React.useState(10);

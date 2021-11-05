@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { RiCloseLine } from "react-icons/ri";
 import Menino from "../../../../assets/MeninoCe3.svg";
 
-import { Container } from "../styles";
+import { Container } from "../../styles";
 
 
 function Atividades({ width, percent }) {
