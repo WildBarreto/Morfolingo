@@ -14,7 +14,12 @@ function Teoria() {
           Voltar{" "}
         </Link>
       </button>
-      <button id="pratica">Praticar</button>
+      <Link
+        to="/Sufixo1"
+        style={{ textDecoration: "none", color: "#1cb0f6" }}
+      >
+        <button id="pratica">Praticar</button>{" "}
+      </Link>
       <h2>Sufixo</h2>
       <p>
         Os sufixos são afixos que formam palavras a partir de um morfema que

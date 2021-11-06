@@ -22,12 +22,12 @@ function Atividades({ width, percent }) {
   //console.log(setValue);
   function verificar() {
     const test = nome;
-    if (test === "bis" || test === "Bis") {
+    if (test === "inha" || test === "Inha") {
       // alert("Parabems você acertou: ");
-      return "/Prefixo1/PreCerto1";
+      return "/Sufixo1/Sufixo1";
     } else {
       //alert("tente novamente: ");
-      return "/Prefixo1/PreErrado1";
+      return "/Sufixo1/SufiErrado1";
     }
   }
 
@@ -44,11 +44,11 @@ function Atividades({ width, percent }) {
       </div>
 
       <section id="content">
-        <h2>Digite o prefixo da palavra em destaque abaixo abaixo:</h2>
+        <h2>Digite o sufixo da palavra em destaque abaixo abaixo:</h2>
 
         <img  src={Menino} alt="estrelas" />
        
-          <label>Estou indo visitar minha <u>bisavó</u>.</label>
+          <label>Estou indo visitar minha <u>vozinha</u>.</label>
          
         <textarea
           rows="20"

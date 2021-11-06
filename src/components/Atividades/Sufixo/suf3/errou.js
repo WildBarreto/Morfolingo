@@ -22,12 +22,12 @@ function Mensagem() {
         {/*<GiLightBulb id="lamp" size={25} color=" #FFD800" />*/}
         <img id="lampi" src={Lamp} />
         <p>
-          Os prefixos são afixos que formam palavras a partir de um morfema que
-          antecede o radical.
+          Os sufixos são afixos que formam palavras a partir de um morfema que
+          sucede o radical.
         </p>
       </div>
 
-      <Link to={"/Prefixo2"} style={{ textDecoration: "none", color: "#fff" }}>
+      <Link to={"/Sufixo3"} style={{ textDecoration: "none", color: "#fff" }}>
         <button>Tentar</button>
       </Link>
     </Container>

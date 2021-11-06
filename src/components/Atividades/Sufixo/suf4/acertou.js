@@ -11,9 +11,9 @@ function Mensagem() {
       <div id="icon">
         < BsCheckLg id="check" size={36} color=" #85D700" />
       </div>
-      <h1>Parabens!</h1>
+      <h1>Parabens, você finalizou a atividade sobre sufixo!</h1>
       <Link
-        to={"/Prefixo2"}
+        to={""}
         style={{ textDecoration: "none", color: "#fff" }}
       >
         <button>Continuar</button>

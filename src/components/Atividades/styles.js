@@ -93,6 +93,10 @@ position: absolute;
   position: relative;
   top: -20px;
 }
+#banguelo{
+  width: 100px;
+  margin-right: 30px;
+}
 #programer{
   width: 200px;
   margin-right: 10px;

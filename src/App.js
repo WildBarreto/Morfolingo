@@ -110,10 +110,6 @@ import SufiErrado3 from "./components/Atividades/Sufixo/suf3/errou";
 import Sufixo4 from "./components/Atividades/Sufixo/suf4/sufi4";
 import SufiCerto4 from "./components/Atividades/Sufixo/suf4/acertou";
 import SufiErrado4 from "./components/Atividades/Sufixo/suf4/errou";
-//Pref5
-import Sufixo5 from "./components/Atividades/Sufixo/suf5/sufi5";
-import SufiCerto5 from "./components/Atividades/Sufixo/suf5/acertou";
-import SufiErrado5 from "./components/Atividades/Sufixo/suf5/errou";
 
 //IMportação dos componentes do router
 import { BrowserRouter as Router, Route } from "react-router-dom";
@@ -232,10 +228,7 @@ function App() {
         <Route component={SufiCerto4} path="/Sufixo4/Sufixo4" />
         <Route component={SufiErrado4} path="/Sufixo4/SufiErrado4" />
 
-        {/*Prefixo 5 */}
-        <Route component={Sufixo5} path="/Sufixo5" />
-        <Route component={SufiCerto5} path="/Sufixo5/Sufixo5" />
-        <Route component={SufiErrado5} path="/Sufixo5/SufiErrado5" />
+        
         
       </Router>
     </>

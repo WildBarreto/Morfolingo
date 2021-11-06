@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import {  BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import { RiCloseLine } from "react-icons/ri";
-import Menino from "../../../../assets/MeninoCe3.svg";
+import Banguela from "../../../../assets/banguelo.svg";
 
 import { Container } from "../../styles";
 
@@ -22,12 +22,12 @@ function Atividades({ width, percent }) {
   //console.log(setValue);
   function verificar() {
     const test = nome;
-    if (test === "bis" || test === "Bis") {
+    if (test === "ista" || test === "Ista") {
       // alert("Parabems você acertou: ");
-      return "/Prefixo1/PreCerto1";
+      return "/Sufixo3/Sufixo3";
     } else {
       //alert("tente novamente: ");
-      return "/Prefixo1/PreErrado1";
+      return "/Sufixo3/SufiErrado3";
     }
   }
 
@@ -44,11 +44,11 @@ function Atividades({ width, percent }) {
       </div>
 
       <section id="content">
-        <h2>Digite o prefixo da palavra em destaque abaixo abaixo:</h2>
+        <h2>Digite o sufixo da palavra em destaque abaixo abaixo:</h2>
 
-        <img  src={Menino} alt="estrelas" />
+        <img id="banguelo"  src={Banguela} alt="estrelas" />
        
-          <label>Estou indo visitar minha <u>bisavó</u>.</label>
+          <label>Preciso ir ao <u>dentista</u>!</label>
          
         <textarea
           rows="20"

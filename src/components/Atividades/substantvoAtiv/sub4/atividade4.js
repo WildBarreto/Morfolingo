@@ -46,7 +46,7 @@ function Atividades({ width, percent }) {
       </div>
 
       <section id="content">
-        <h2>Digite o substantivo coleivo da frase abaixo:</h2>
+        <h2>Digite o substantivo coletivo da frase abaixo:</h2>
 
         <img id="peixe" src={Peixe} alt="estrelas" />
 
