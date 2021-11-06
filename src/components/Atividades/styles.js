@@ -101,6 +101,13 @@ position: absolute;
   width: 200px;
   margin-right: 10px;
 }
+#pedreiros{
+  width: 155px;
+}
+
+#foguete{
+  width: 105px;
+}
   
   #label{
     color:  rgb(75, 75, 75);

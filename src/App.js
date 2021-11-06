@@ -111,6 +111,29 @@ import Sufixo4 from "./components/Atividades/Sufixo/suf4/sufi4";
 import SufiCerto4 from "./components/Atividades/Sufixo/suf4/acertou";
 import SufiErrado4 from "./components/Atividades/Sufixo/suf4/errou";
 
+/*==================================================================== */
+//Importação atividades sobre prefixo
+//Verbo1
+import Verbo1 from "./components/Atividades/Verbo/verb1/verbo1";
+import VerbCerto1 from "./components/Atividades/Verbo/verb1/acertou";
+import VerbErrado1 from "./components/Atividades/Verbo/verb1/errou";
+//Verbo2
+import Verbo2 from "./components/Atividades/Verbo/verb2/verbo2";
+import VerbCerto2 from "./components/Atividades/Verbo/verb2/acertou";
+import VerbErrado2 from "./components/Atividades/Verbo/verb2/errou";
+//Verbo3
+import Verbo3 from "./components/Atividades/Verbo/verb3/verbo3";
+import VerbCerto3 from "./components/Atividades/Verbo/verb3/acertou";
+import VerbErrado3 from "./components/Atividades/Verbo/verb3/errou";
+//Verbo4
+import Verbo4 from "./components/Atividades/Verbo/verb4/verbo4";
+import VerbCerto4 from "./components/Atividades/Verbo/verb4/acertou";
+import VerbErrado4 from "./components/Atividades/Verbo/verb4/errou";
+//Verbo5
+import Verbo5 from "./components/Atividades/Verbo/verb5/verbo5";
+import VerbCerto5 from "./components/Atividades/Verbo/verb5/acertou";
+import VerbErrado5 from "./components/Atividades/Verbo/verb5/errou";
+
 //IMportação dos componentes do router
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
@@ -135,29 +158,6 @@ function App() {
         <Route component={Pronome} path="/Pronome" />
         <Route component={Artigo} path="/Artigo" />
         <Route component={Numeral} path="/Numeral" />
-        {/*==================================================================== */}
-        {/*Rotas adas Atividades sobre radical*/}
-
-        {/*Rotas das atividades sobre substantivos */}
-        <Route component={Atividades} path="/Atividade" />
-        <Route component={AcertouSub1} path="/Atividade/AcertouSub1" />
-        <Route component={ErrouSub1} path="/Atividade/ErrouSub1" />
-        {/*atividade 2*/}
-        <Route component={Atividades2} path="/Atividade2" />
-        <Route component={AcertouSub2} path="/Atividade2/AcertouSub2" />
-        <Route component={ErrouSub2} path="/Atividade2/ErrouSub2" />
-        {/*atividade 3*/}
-        <Route component={Atividades3} path="/Atividade3" />
-        <Route component={AcertouSub3} path="/Atividade3/AcertouSub3" />
-        <Route component={ErrouSub3} path="/Atividade3/ErrouSub3" />
-        {/*atividade 4*/}
-        <Route component={Atividades4} path="/Atividade4" />
-        <Route component={AcertouSub4} path="/Atividade4/AcertouSub4" />
-        <Route component={ErrouSub4} path="/Atividade4/ErrouSub4" />
-        {/*atividade 5*/}
-        <Route component={Atividades5} path="/Atividade5" />
-        <Route component={AcertouSub5} path="/Atividade5/AcertouSub5" />
-        <Route component={ErrouSub5} path="/Atividade5/ErrouSub5" />
 
         {/*==================================================================== */}
         {/*Radical */}
@@ -228,6 +228,50 @@ function App() {
         <Route component={SufiCerto4} path="/Sufixo4/Sufixo4" />
         <Route component={SufiErrado4} path="/Sufixo4/SufiErrado4" />
 
+         {/*==================================================================== */}
+        {/*Rotas adas Atividades sobre substantivos*/}
+
+        {/*Rotas das atividades sobre substantivos */}
+        <Route component={Atividades} path="/Atividade" />
+        <Route component={AcertouSub1} path="/Atividade/AcertouSub1" />
+        <Route component={ErrouSub1} path="/Atividade/ErrouSub1" />
+        {/*atividade 2*/}
+        <Route component={Atividades2} path="/Atividade2" />
+        <Route component={AcertouSub2} path="/Atividade2/AcertouSub2" />
+        <Route component={ErrouSub2} path="/Atividade2/ErrouSub2" />
+        {/*atividade 3*/}
+        <Route component={Atividades3} path="/Atividade3" />
+        <Route component={AcertouSub3} path="/Atividade3/AcertouSub3" />
+        <Route component={ErrouSub3} path="/Atividade3/ErrouSub3" />
+        {/*atividade 4*/}
+        <Route component={Atividades4} path="/Atividade4" />
+        <Route component={AcertouSub4} path="/Atividade4/AcertouSub4" />
+        <Route component={ErrouSub4} path="/Atividade4/ErrouSub4" />
+        {/*atividade 5*/}
+        <Route component={Atividades5} path="/Atividade5" />
+        <Route component={AcertouSub5} path="/Atividade5/AcertouSub5" />
+        <Route component={ErrouSub5} path="/Atividade5/ErrouSub5" />
+ {/*==================================================================== */}
+        {/*Verbo 1 */}
+        <Route component={Verbo1} path="/Verbo1" />
+        <Route component={VerbCerto1} path="/Verbo1/VerbCerto1" />
+        <Route component={VerbErrado1} path="/Verbo1/VerbErrado1" />
+        {/*Verbo 2 */}
+        <Route component={Verbo2} path="/Verbo2" />
+        <Route component={VerbCerto2} path="/Verbo2/VerbCerto2" />
+        <Route component={VerbErrado2} path="/Verbo2/VerbErrado2" />
+        {/*Verbo 3 */}
+        <Route component={Verbo3} path="/Verbo3" />
+        <Route component={VerbCerto3} path="/Verbo3/VerbCerto3" />
+        <Route component={VerbErrado3} path="/Verbo3/VerbErrado3" />
+        {/*Verbo 4 */}
+        <Route component={Verbo4} path="/Verbo4" />
+        <Route component={VerbCerto4} path="/Verbo4/VerbCerto4" />
+        <Route component={VerbErrado4} path="/Verbo4/VerbErrado4" />
+        {/*Verbo 1 */}
+        <Route component={Verbo5} path="/Verbo5" />
+        <Route component={VerbCerto5} path="/Verbo5/VerbCerto5" />
+        <Route component={VerbErrado5} path="/Verbo5/VerbErrado5" />
         
         
       </Router>

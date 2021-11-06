@@ -14,7 +14,12 @@ function Teoria() {
           Voltar{" "}
         </Link>
       </button>
-      <button id="pratica">Praticar</button>
+      <Link
+        to="/Verbo1"
+        style={{ textDecoration: "none", color: "#1cb0f6" }}
+      >
+        <button id="pratica">Praticar</button>{" "}
+      </Link>
       <h2>Verbo</h2>
       <p>
         Um <b>verbo</b> é uma palavra que indica acontecimentos representados no
