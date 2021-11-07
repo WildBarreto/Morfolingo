@@ -5,7 +5,7 @@ export const Container = styled.div`
   margin-top: -1597px;
   background: #ecf1f8;
   width: 100%;
-  height: 270%;
+  height: 290%;
   text-align: justify;
   z-index: 1;
   

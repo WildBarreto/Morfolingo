@@ -14,7 +14,12 @@ function Teoria() {
           Voltar{" "}
         </Link>
       </button>
-      <button id="pratica">Praticar</button>
+      <Link
+        to="/Artigo1"
+        style={{ textDecoration: "none", color: "#1cb0f6" }}
+      >
+        <button id="pratica">Praticar</button>{" "}
+      </Link>
       <h2>Artigo</h2>
       <p>
         o artigo é a classe de palavras que antecede o substantivo para

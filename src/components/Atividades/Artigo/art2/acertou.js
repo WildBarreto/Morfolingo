@@ -13,7 +13,7 @@ function Mensagem() {
       </div>
       <h1>Parabens!</h1>
       <Link
-        to={"/Pronome2"}
+        to={"/Artigo3"}
         style={{ textDecoration: "none", color: "#fff" }}
       >
         <button>Continuar</button>

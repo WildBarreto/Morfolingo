@@ -387,25 +387,25 @@ function App() {
         <Route component={PronomeErrado5} path="/Pronome5/PronomeErrado5" />
         {/*==================================================================== */}
         {/*Artigo 1 */}
-        <Route component={Artigo1} path="/Pronome1" />
+        <Route component={Artigo1} path="/Artigo1" />
         <Route component={ArtigoCerto1} path="/Artigo1/ArtigoCerto1" />
         <Route component={ ArtigoErrado1} path="/Artigo1/ArtigoErrado1" />
          {/*Artigo 2 */}
-         <Route component={Artigo2} path="/Pronome2" />
+         <Route component={Artigo2} path="/Artigo2" />
         <Route component={ArtigoCerto2} path="/Artigo2/ArtigoCerto2" />
         <Route component={ ArtigoErrado2} path="/Artigo2/ArtigoErrado2" />
          {/*Artigo 3 */}
-         <Route component={Artigo3} path="/Pronome3" />
+         <Route component={Artigo3} path="/Artigo3" />
         <Route component={ArtigoCerto3} path="/Artigo3/ArtigoCerto3" />
         <Route component={ ArtigoErrado3} path="/Artigo3/ArtigoErrado3" />
          {/*Artigo 4 */}
-         <Route component={Artigo4} path="/Pronome4" />
+         <Route component={Artigo4} path="/Artigo4" />
         <Route component={ArtigoCerto4} path="/Artigo4/ArtigoCerto4" />
         <Route component={ ArtigoErrado4} path="/Artigo4/ArtigoErrado4" />
          {/*Artigo 5 */}
-         <Route component={Artigo5} path="/Pronome5" />
+         <Route component={Artigo5} path="/Artigo5" />
         <Route component={ArtigoCerto5} path="/Artigo5/ArtigoCerto5" />
-        <Route component={ ArtigoErrado5} path="/Artigo5/ ArtigoErrado5" />
+        <Route component={ ArtigoErrado5} path="/Artigo5/ArtigoErrado5" />
       </Router>
     </>
   );

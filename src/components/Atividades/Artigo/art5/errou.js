@@ -22,13 +22,12 @@ function Mensagem() {
         {/*<GiLightBulb id="lamp" size={25} color=" #FFD800" />*/}
         <img id="lampi" src={Lamp} />
         <p>
-          Pronome é a classe de palavras que substitui o substantivo (nome). Tem
-          a finalidade de indicar a pessoa do discurso ou situar no tempo e
-          espaço, sem utilizar o seu nome.
+        O artigo é a classe de palavras que antecede o substantivo para
+          determiná-lo de modo particular ou geral.
         </p>
       </div>
 
-      <Link to={"/Pronome1"} style={{ textDecoration: "none", color: "#fff" }}>
+      <Link to={"/Artigo5"} style={{ textDecoration: "none", color: "#fff" }}>
         <button>Tentar</button>
       </Link>
     </Container>

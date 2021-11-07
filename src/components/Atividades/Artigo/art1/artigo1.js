@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import {  BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import { RiCloseLine } from "react-icons/ri";
-import Programer from "../../../../assets/Programer.svg";
+import Menino from "../../../../assets/MeninoCe3.svg";
 
 import { Container } from "../../styles";
 
@@ -22,12 +22,12 @@ function Atividades({ width, percent }) {
   //console.log(setValue);
   function verificar() {
     const test = nome;
-    if (test === "este" || test === "Este") {
+    if (test === "um" || test === "Um") {
       // alert("Parabems você acertou: ");
-      return "/Pronome1/PronomeCerto1";
+      return "/Artigo1/ArtigoCerto1";
     } else {
       //alert("tente novamente: ");
-      return "/Pronome1/PronomeErrado1";
+      return "/Artigo1/ArtigoErrado1";
     }
   }
 
@@ -44,11 +44,11 @@ function Atividades({ width, percent }) {
       </div>
 
       <section id="content">
-        <h2>Digite o pronome da frase abaixo:</h2>
+        <h2>Digite o artigo da frase abaixo:</h2>
 
-        <img id="programer" src={Programer} alt="estrelas" />
+        <img  src={Menino} alt="estrelas" />
        
-          <label>Este é meu computador.</label>
+          <label>Preciso chamar um taxi.</label>
        
         <textarea
           rows="20"
