@@ -14,7 +14,9 @@ function Teoria() {
           Voltar{" "}
         </Link>
       </button>
-      <button id="pratica">Praticar</button>
+      <Link to="/Pronome1" style={{ textDecoration: "none", color: "#1cb0f6" }}>
+        <button id="pratica">Praticar</button>{" "}
+      </Link>
       <h2>Pronome</h2>
       <p>
         Pronome é a classe de palavras que substitui o substantivo (nome). Tem a

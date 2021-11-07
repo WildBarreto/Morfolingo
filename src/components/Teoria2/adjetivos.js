@@ -14,7 +14,12 @@ function Teoria() {
           Voltar{" "}
         </Link>
       </button>
-      <button id="pratica">Praticar</button>
+      <Link
+        to="/Adjetivo1"
+        style={{ textDecoration: "none", color: "#1cb0f6" }}
+      >
+        <button id="pratica">Praticar</button>{" "}
+      </Link>
       <h2>Adjetivos</h2>
       <p>
         É toda palavra que caracteriza o substantivo, indicando-lhe qualidade,

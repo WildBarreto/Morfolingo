@@ -134,6 +134,75 @@ import Verbo5 from "./components/Atividades/Verbo/verb5/verbo5";
 import VerbCerto5 from "./components/Atividades/Verbo/verb5/acertou";
 import VerbErrado5 from "./components/Atividades/Verbo/verb5/errou";
 
+/*==================================================================== */
+//Importação atividades sobre prefixo
+//Verbo1
+import Adjetivo1 from "./components/Atividades/Adjetivo/adj1/adjetivo1";
+import AdjetivoCerto1 from "./components/Atividades/Adjetivo/adj1/acertou";
+import AdjetivoErrado1 from "./components/Atividades/Adjetivo/adj1/errou";
+//Verbo2
+import Adjetivo2 from "./components/Atividades/Adjetivo/adj2/adjetivo2";
+import AdjetivoCerto2 from "./components/Atividades/Adjetivo/adj2/acertou";
+import AdjetivoErrado2 from "./components/Atividades/Adjetivo/adj2/errou";
+//Verbo3
+import Adjetivo3 from "./components/Atividades/Adjetivo/adj3/adjetivo3";
+import AdjetivoCerto3 from "./components/Atividades/Adjetivo/adj3/acertou";
+import AdjetivoErrado3 from "./components/Atividades/Adjetivo/adj3/errou";
+//Verbo4
+import Adjetivo4 from "./components/Atividades/Adjetivo/adj4/adjetivo4";
+import AdjetivoCerto4 from "./components/Atividades/Adjetivo/adj4/acertou";
+import AdjetivoErrado4 from "./components/Atividades/Adjetivo/adj4/errou";
+//Verbo5
+import Adjetivo5 from "./components/Atividades/Adjetivo/adj5/adjetivo5";
+import AdjetivoCerto5 from "./components/Atividades/Adjetivo/adj5/acertou";
+import AdjetivoErrado5 from "./components/Atividades/Adjetivo/adj5/errou";
+
+/*==================================================================== */
+//Importação atividades sobre prefixo
+//Pronome1
+import Pronome1 from "./components/Atividades/Pronome/pro1/pronome1";
+import PronomeCerto1 from "./components/Atividades/Pronome/pro1/acertou";
+import PronomeErrado1 from "./components/Atividades/Pronome/pro1/errou";
+//Pronome1
+import Pronome2 from "./components/Atividades/Pronome/pro2/pronome2";
+import PronomeCerto2 from "./components/Atividades/Pronome/pro2/acertou";
+import PronomeErrado2 from "./components/Atividades/Pronome/pro2/errou";
+//Pronome1
+import Pronome3 from "./components/Atividades/Pronome/pro3/pronome3";
+import PronomeCerto3 from "./components/Atividades/Pronome/pro3/acertou";
+import PronomeErrado3 from "./components/Atividades/Pronome/pro3/errou";
+//Pronome1
+import Pronome4 from "./components/Atividades/Pronome/pro4/pronome4";
+import PronomeCerto4 from "./components/Atividades/Pronome/pro4/acertou";
+import PronomeErrado4 from "./components/Atividades/Pronome/pro4/errou";
+//Pronome1
+import Pronome5 from "./components/Atividades/Pronome/pro5/pronome5";
+import PronomeCerto5 from "./components/Atividades/Pronome/pro5/acertou";
+import PronomeErrado5 from "./components/Atividades/Pronome/pro5/errou";
+
+/*==================================================================== */
+//Importação atividades sobre prefixo
+//Pronome1
+import Artigo1 from "./components/Atividades/Artigo/art1/artigo1";
+import ArtigoCerto1 from "./components/Atividades/Artigo/art1/acertou";
+import ArtigoErrado1 from "./components/Atividades/Artigo/art1/errou";
+//Pronome1
+import Artigo2 from "./components/Atividades/Artigo/art2/artigo2";
+import ArtigoCerto2 from "./components/Atividades/Artigo/art2/acertou";
+import ArtigoErrado2 from "./components/Atividades/Artigo/art2/errou";
+//Pronome1
+import Artigo3 from "./components/Atividades/Artigo/art3/artigo3";
+import ArtigoCerto3 from "./components/Atividades/Artigo/art3/acertou";
+import ArtigoErrado3 from "./components/Atividades/Artigo/art3/errou";
+//Pronome1
+import Artigo4 from "./components/Atividades/Artigo/art4/artigo4";
+import ArtigoCerto4 from "./components/Atividades/Artigo/art4/acertou";
+import ArtigoErrado4 from "./components/Atividades/Artigo/art4/errou";
+//Pronome1
+import Artigo5 from "./components/Atividades/Artigo/art5/artigo5";
+import ArtigoCerto5 from "./components/Atividades/Artigo/art5/acertou";
+import ArtigoErrado5 from "./components/Atividades/Artigo/art5/errou";
+
 //IMportação dos componentes do router
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
@@ -273,7 +342,70 @@ function App() {
         <Route component={VerbCerto5} path="/Verbo5/VerbCerto5" />
         <Route component={VerbErrado5} path="/Verbo5/VerbErrado5" />
         
-        
+        {/*==================================================================== */}
+        {/*Adjetivo 1 */}
+        <Route component={Adjetivo1} path="/Adjetivo1" />
+        <Route component={AdjetivoCerto1} path="/Adjetivo1/AdjetivoCerto1" />
+        <Route component={AdjetivoErrado1} path="/Adjetivo1/AdjetivoErrado1" />
+        {/*Adjetivo 2 */}
+        <Route component={Adjetivo2} path="/Adjetivo2" />
+        <Route component={AdjetivoCerto2} path="/Adjetivo2/AdjetivoCerto2" />
+        <Route component={AdjetivoErrado2} path="/Adjetivo2/AdjetivoErrado2" />
+        {/*Adjetivo 3 */}
+        <Route component={Adjetivo3} path="/Adjetivo3" />
+        <Route component={AdjetivoCerto3} path="/Adjetivo3/AdjetivoCerto3" />
+        <Route component={AdjetivoErrado3} path="/Adjetivo3/AdjetivoErrado3" />
+        {/*Adjetivo 4 */}
+        <Route component={Adjetivo4} path="/Adjetivo4" />
+        <Route component={AdjetivoCerto4} path="/Adjetivo4/AdjetivoCerto4" />
+        <Route component={AdjetivoErrado4} path="/Adjetivo4/AdjetivoErrado4" />
+        {/*Adjetivo 5 */}
+        <Route component={Adjetivo5} path="/Adjetivo5" />
+        <Route component={AdjetivoCerto5} path="/Adjetivo5/AdjetivoCerto5" />
+        <Route component={AdjetivoErrado5} path="/Adjetivo5/AdjetivoErrado5" />
+
+        {/*==================================================================== */}
+        {/*Pronome 1 */}
+        <Route component={Pronome1} path="/Pronome1" />
+        <Route component={PronomeCerto1} path="/Pronome1/PronomeCerto1" />
+        <Route component={PronomeErrado1} path="/Pronome1/PronomeErrado1" />
+          {/*Pronome 2 */}
+          <Route component={Pronome2} path="/Pronome2" />
+        <Route component={PronomeCerto2} path="/Pronome2/PronomeCerto2" />
+        <Route component={PronomeErrado2} path="/Pronome2/PronomeErrado2" />
+          {/*Pronome 3 */}
+          <Route component={Pronome3} path="/Pronome3" />
+        <Route component={PronomeCerto3} path="/Pronome3/PronomeCerto3" />
+        <Route component={PronomeErrado3} path="/Pronome3/PronomeErrado3" />
+          {/*Pronome 4 */}
+          <Route component={Pronome4} path="/Pronome4" />
+        <Route component={PronomeCerto4} path="/Pronome4/PronomeCerto4" />
+        <Route component={PronomeErrado4} path="/Pronome4/PronomeErrado4" />
+          {/*Pronome 5 */}
+          <Route component={Pronome5} path="/Pronome5" />
+        <Route component={PronomeCerto5} path="/Pronome5/PronomeCerto5" />
+        <Route component={PronomeErrado5} path="/Pronome5/PronomeErrado5" />
+        {/*==================================================================== */}
+        {/*Artigo 1 */}
+        <Route component={Artigo1} path="/Pronome1" />
+        <Route component={ArtigoCerto1} path="/Artigo1/ArtigoCerto1" />
+        <Route component={ ArtigoErrado1} path="/Artigo1/ArtigoErrado1" />
+         {/*Artigo 2 */}
+         <Route component={Artigo2} path="/Pronome2" />
+        <Route component={ArtigoCerto2} path="/Artigo2/ArtigoCerto2" />
+        <Route component={ ArtigoErrado2} path="/Artigo2/ArtigoErrado2" />
+         {/*Artigo 3 */}
+         <Route component={Artigo3} path="/Pronome3" />
+        <Route component={ArtigoCerto3} path="/Artigo3/ArtigoCerto3" />
+        <Route component={ ArtigoErrado3} path="/Artigo3/ArtigoErrado3" />
+         {/*Artigo 4 */}
+         <Route component={Artigo4} path="/Pronome4" />
+        <Route component={ArtigoCerto4} path="/Artigo4/ArtigoCerto4" />
+        <Route component={ ArtigoErrado4} path="/Artigo4/ArtigoErrado4" />
+         {/*Artigo 5 */}
+         <Route component={Artigo5} path="/Pronome5" />
+        <Route component={ArtigoCerto5} path="/Artigo5/ArtigoCerto5" />
+        <Route component={ ArtigoErrado5} path="/Artigo5/ ArtigoErrado5" />
       </Router>
     </>
   );
