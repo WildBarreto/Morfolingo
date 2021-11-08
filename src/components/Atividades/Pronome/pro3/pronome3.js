@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import {  BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import { RiCloseLine } from "react-icons/ri";
 import Pedreiros from "../../../../assets/Pedreiros.svg";

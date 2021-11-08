@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 import { Container, Header } from "./styles";
 
-import Modal from "../Modal";
 
 import { Link } from "react-router-dom";
 
@@ -27,7 +26,7 @@ export default function Cards({ data }) {
   const [isActive, setIsActive] = useState(false);
   const onClick = () => setIsActive(!isActive);
 
-  console.log(isActive);
+  //console.log(isActive);
   return (
     <Container background={data.labels}>
       {/*isActive ? <Modal background={data.labels} /> : ""*/

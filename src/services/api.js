@@ -55,7 +55,7 @@ export function loadLists() {
       done: true,
       cards: [
         {
-          id: 10,
+          id: 4,
           content: "Substantivo",
           labels: ["#1CB0F6"],
           perfil: ["#8DD8FB"],
@@ -64,7 +64,7 @@ export function loadLists() {
           teoria: "/Substantivo"
         },
         {
-          id: 10,
+          id: 5,
           content: "Verbo",
           labels: ["#1CB0F6"],
           perfil: ["#8DD8FB"],
@@ -73,7 +73,7 @@ export function loadLists() {
           teoria: "/Verbo"
         },
         {
-          id: 12,
+          id: 6,
           content: "Adjetivo",
           labels: ["#54e1f7"],
           perfil: ["#8DD8FB"],
@@ -82,7 +82,7 @@ export function loadLists() {
           teoria: "/Adjetivo"
         },
         {
-          id: 13,
+          id: 7,
           content: "Pronome",
           labels: ["#1CB0F6"],
           perfil: ["#8DD8FB"],
@@ -91,7 +91,7 @@ export function loadLists() {
           teoria: "/Pronome"
         },
         {
-          id: 14,
+          id: 8,
           content: "Artigo",
           labels: ["#1CB0F6"],
           perfil: ["#8DD8FB"],
@@ -100,7 +100,7 @@ export function loadLists() {
           teoria: "/Artigo"
         },
         {
-          id: 15,
+          id: 9,
           content: "Numeral",
           labels: ["#1CB0F6"],
           perfil: ["#8DD8FB"],

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import {  BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import { RiCloseLine } from "react-icons/ri";
 import Violao from "../../../../assets/Violao.svg";
@@ -47,9 +47,9 @@ function Atividades({ width, percent }) {
         <h2>Digite o adjetivo da frase abaixo:</h2>
 
         <img id="navio" src={Violao} alt="estrelas" />
-       
-          <label>Marcos é um músico muito talentoso </label>
-       
+
+        <label>Marcos é um músico muito talentoso </label>
+
         <textarea
           rows="20"
           cols="20"

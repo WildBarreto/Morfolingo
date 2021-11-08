@@ -4,8 +4,8 @@ import { Container } from "../../../Mensagem/errou/styles";
 
 import { Link } from "react-router-dom";
 
-import { RiCloseLine } from "react-icons/ri";
-import { GiLightBulb } from "react-icons/gi";
+//import { RiCloseLine } from "react-icons/ri";
+//import { GiLightBulb } from "react-icons/gi";
 
 import Lamp from "../../../../assets/Lamp.svg";
 
@@ -20,7 +20,7 @@ function Mensagem() {
 
       <div id="dica">
         {/*<GiLightBulb id="lamp" size={25} color=" #FFD800" />*/}
-        <img id="lampi" src={Lamp} />
+        <img id="lampi" src={Lamp} alt=""/>
         <p>
           Um verbo é uma palavra que indica acontecimentos representados no
           tempo, como uma ação, um estado, um processo ou um fenômeno.

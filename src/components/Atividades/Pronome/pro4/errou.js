@@ -4,8 +4,8 @@ import { Container } from "../../../Mensagem/errou/styles";
 
 import { Link } from "react-router-dom";
 
-import { RiCloseLine } from "react-icons/ri";
-import { GiLightBulb } from "react-icons/gi";
+//import { RiCloseLine } from "react-icons/ri";
+//import { GiLightBulb } from "react-icons/gi";
 
 import Lamp from "../../../../assets/Lamp.svg";
 
@@ -20,7 +20,7 @@ function Mensagem() {
 
       <div id="dica">
         {/*<GiLightBulb id="lamp" size={25} color=" #FFD800" />*/}
-        <img id="lampi" src={Lamp} />
+        <img id="lampi" src={Lamp} alt=""/>
         <p>
         Pronome é a classe de palavras que substitui o substantivo (nome). Tem
           a finalidade de indicar a pessoa do discurso ou situar no tempo e

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import {  BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import { RiCloseLine } from "react-icons/ri";
 import Nerd from "../../../../assets/Nerd.svg";
@@ -47,9 +47,9 @@ function Atividades({ width, percent }) {
         <h2>Digite o adjetivo da frase abaixo:</h2>
 
         <img id="navio" src={Nerd} alt="estrelas" />
-       
-          <label>Sou um péssimo jogador de futebol</label>
-       
+
+        <label>Sou um péssimo jogador de futebol</label>
+
         <textarea
           rows="20"
           cols="20"

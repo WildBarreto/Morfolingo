@@ -19,9 +19,6 @@ import Pronome from "./components/Teoria2/pronome";
 import Artigo from "./components/Teoria2/artigo";
 import Numeral from "./components/Teoria2/numeral";
 
-//Mensagens de ERRO e de ACERTO das atividades
-import Message from "./components/Mensagem/acertou/acertou";
-import Message2 from "./components/Mensagem/errou/errou";
 /*==================================================================== =================*/
 //Imjportação das atividades
 import Atividades from "./components/Atividades/substantvoAtiv/sub1/atividade1"; //Atividade 1
