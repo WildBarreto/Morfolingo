@@ -5,7 +5,7 @@ export const Container = styled.div`
   height: 100px;
 
   left: 17%;
-  background:rgba(152, 246, 82, 0.69);
+  background:#ABFF6C;
   position: absolute;
   top: 80%;
   z-index: 1;
@@ -59,6 +59,29 @@ h1{
 
     &:hover {
       filter: brightness(0.9);
+    }
+  }
+  @media (max-width: 720px) {
+    width: 150vw;
+    height: 130px;
+
+    left: 17%;
+    background: #ABFF6C;
+    position: absolute;
+    top: 100vh;
+
+    h1 {
+      position: absolute;
+      top: 5px;
+      left: 100px;
+    }
+
+    button {
+      width: 300px;
+      height: 40px;
+      position: absolute;
+      right: 10%;
+      top: 80px;
     }
   }
 `;

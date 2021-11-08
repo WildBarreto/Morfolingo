@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-
-position: absolute;
+  position: absolute;
   margin-top: -1597px;
   background: #ecf1f8;
   width: 100%;
@@ -57,7 +56,6 @@ position: absolute;
       filter: brightness(0.9);
     }
   }
-  
 
   h2 {
     position: relative;
@@ -80,41 +78,40 @@ position: absolute;
     //background: #c4c4c4;
   }
 
-  img{
+  img {
     width: 200px;
   }
-  #medico{
-    width:90px;
+  #medico {
+    width: 90px;
   }
-  #peixe{
+  #peixe {
     width: 200px;
   }
-#navio{
-  position: relative;
-  top: -20px;
-}
-#banguelo{
-  width: 100px;
-  margin-right: 30px;
-}
-#programer{
-  width: 200px;
-  margin-right: 10px;
-}
-#pedreiros{
-  width: 155px;
-}
-
-#foguete{
-  width: 105px;
-}
-  
-  #label{
-    color:  rgb(75, 75, 75);
+  #navio {
+    position: relative;
+    top: -20px;
+  }
+  #banguelo {
+    width: 100px;
+    margin-right: 30px;
+  }
+  #programer {
+    width: 200px;
+    margin-right: 10px;
+  }
+  #pedreiros {
+    width: 155px;
   }
 
-  
-  label{
+  #foguete {
+    width: 105px;
+  }
+
+  #label {
+    color: rgb(75, 75, 75);
+  }
+
+  label {
     position: absolute;
     color: rgb(75, 75, 75);
     font-size: "Nunito", "Nunito", sans-serif;
@@ -124,7 +121,7 @@ position: absolute;
     top: 29%;
   }
 
-  #close{
+  #close {
     //position: absolute;
     left: 80%;
     top: 0%;
@@ -138,7 +135,7 @@ position: absolute;
     top: 73%;
     bottom: 28.6%;
     text-align: Left;
-    
+
     background: rgba(196, 196, 196, 0.26);
     border-radius: 10px;
     color: rgb(75, 75, 75);
@@ -148,6 +145,38 @@ position: absolute;
     font-size: 18px;
 
     padding: 25px;
-    resize: none
+    resize: none;
+  }
+
+  @media (max-width: 720px) {
+    width: 200vw;
+    //background-color: #1cb0f6;
+    #content {
+      top: 100px;
+      margin-left: 30px;
+      position: relative;
+      width: 70%;
+      height: 300px;
+      //background: #c4c4c4;
+    }
+    textarea {
+      position: absolute;
+      width: 400px;
+      height: 100px;
+      left: 18.33%;
+      right: 40%;
+      top: 73%;
+      bottom: 28.6%;
+      text-align: Left;
+    }
+
+    #pratica {
+      position: absolute;
+      width: 400px;
+      height: 40px;
+
+      right: 150px;
+      top: 580px;
+    }
   }
 `;

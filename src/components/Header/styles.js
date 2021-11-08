@@ -8,7 +8,7 @@ export const Container = styled.div`
   color: #fff;
   display: flex;
   align-items: center;
-  //width: 200%;
+  width: 94.9rem;
 
   #star {
     position: absolute;
@@ -47,18 +47,18 @@ export const Container = styled.div`
 
   @media (max-width: 720px) {
     html {
-      font-size: 87.5%;
+      font-size: 200px;
     }
-    width: 550px;
+    width: 205vw;
     #star {
       position: absolute;
-      left: 380px;
+      left: 150%;
       width: 40px;
       height: 40px;
     }
     #userImage {
       position: absolute;
-      left: 470px;
+      left: 180%;
       padding: 10px;
       background: #1cb0f6;
       border-radius: 50%;
@@ -73,7 +73,7 @@ export const Container = styled.div`
     #cont {
       position: absolute;
       top: 10px;
-      left: 430px;
+      left: 170%;
       width: 40px;
       height: 40px;
       font-size: "Nunito", "Nunito", sans-serif;

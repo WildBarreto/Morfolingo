@@ -5,12 +5,12 @@ export const Container = styled.div`
   height: 115px;
 
   left: 17%;
-  background:rgba(236, 11, 27, 0.24);
+  background:  #ffa7ad;
   position: absolute;
   top: 80%;
   z-index: 1;
   border-radius: 20px;
-h1{
+  h1 {
     position: absolute;
     top: 5px;
     left: 90px;
@@ -20,30 +20,27 @@ h1{
     font-weight: 700;
     font-size: 25px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    
-}
+  }
 
-#dica{
- 
-  width: 300px;
-  background:  #ecf1f8;
+  #dica {
     width: 300px;
-   height: 70px;
+    background: #ecf1f8;
+    width: 300px;
+    height: 70px;
     border-radius: 10px;
     left: 100px;
     top: 40px;
     position: absolute;
     //align-items: center;
-   
-}
+  }
 
-p {
-  position: absolute;
+  p {
+    position: absolute;
     width: 93%;
-   
+
     left: 10px;
     top: 2px;
-    
+
     text-indent: 10px;
     text-align: justify;
     //letter-spacing: 1px;
@@ -56,18 +53,18 @@ p {
     color: rgb(75, 75, 75);
   }
 
-#lamp{
-  //position: absolute;
-  top: 60px;
-  left: 80px;
-}
-#lampi{
-  position: absolute;
-  left: -10px;
+  #lamp {
+    //position: absolute;
+    top: 60px;
+    left: 80px;
+  }
+  #lampi {
+    position: absolute;
+    left: -10px;
     width: 20px;
   }
 
-#icon{
+  #icon {
     background: #ecf1f8;
     width: 50px;
     right: 50px;
@@ -76,13 +73,13 @@ p {
     top: 30px;
     position: absolute;
     align-items: center;
-}
-#close{
+  }
+  #close {
     position: relative;
     left: 5px;
-}
+  }
   button {
-    background: #EC0B1B;
+    background: #ec0b1b;
     color: #ecf1f8;
     cursor: pointer;
     border-radius: 20px;
@@ -102,6 +99,57 @@ p {
 
     &:hover {
       filter: brightness(0.9);
+    }
+  }
+
+  @media (max-width: 720px) {
+    width: 150vw;
+    height: 215px;
+
+    left: 17%;
+    background: #ffa7ad;
+    position: absolute;
+    top: 90vh;
+
+    h1 {
+      position: absolute;
+      top: 5px;
+      left: 10px;
+    }
+
+    #dica {
+      left: 25px;
+      top: 45px;
+      position: absolute;
+      width: 430px;
+       height: 100px;
+    }
+
+    p {
+      position: absolute;
+      width: 93%;
+
+      left: 10px;
+      top: 2px;
+
+      text-indent: 10px;
+      text-align: justify;
+      //letter-spacing: 1px;
+      font-size: "Nunito", "Nunito", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1px;
+      //line-height: 40px;
+
+      color: rgb(75, 75, 75);
+    }
+
+    button {
+      width: 400px;
+      height: 40px;
+      position: absolute;
+      right: 10%;
+      top: 170px;
     }
   }
 `;

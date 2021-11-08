@@ -8,9 +8,9 @@ export const Container = styled.div`
   height: 290%;
   text-align: justify;
   z-index: 1;
-  
+
   p {
-    width:900px;
+    width: 900px;
     // height: 68.66px;
     margin-left: 200px;
     //padding: auto;
@@ -100,9 +100,26 @@ export const Container = styled.div`
     font-size: 20px;
 
     border: none;
-   
+
     &:hover {
       filter: brightness(0.9);
+    }
+  }
+  @media (max-width: 720px) {
+    width: 200vw;
+
+    p {
+      width: 169vw;
+      margin-left: 20vw;
+      font-size: 30px;
+    }
+    #voltar {
+      margin-left: 40px;
+    }
+
+    #pratica {
+      left: 150vw;
+      top: 20px;
     }
   }
 `;
