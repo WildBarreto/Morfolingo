@@ -2,9 +2,9 @@ import React from "react";
 
 import { Container } from "./styles";
 
-import star from "../../assets/Star.svg";
+//import star from "../../assets/Star.svg";
 
-import boy from "../../assets/boy.svg";
+//import boy from "../../assets/boy.svg";
 
 export default function Header() {
   return (
