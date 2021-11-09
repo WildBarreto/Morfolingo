@@ -12,7 +12,7 @@ export default createGlobalStyle`
 
 html, border-style, #root {
     height: 100%;
-   //width: auto;
+ 
     
 }
 
@@ -24,6 +24,7 @@ body {
     color:  rgb(75, 75, 75);
     //color: #3333;
     -webkit-font-smoothing: antialised !important; 
+
 }
 
 ul {

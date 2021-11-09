@@ -48,7 +48,7 @@ function Atividades({ width, percent }) {
 
         <img id="medico" src={Medico} alt="estrelas" />
        
-          <label>Médico, medicina e medicinal.</label>
+          <label>Médico, medicina, medicinal.</label>
          
         <textarea
           rows="20"

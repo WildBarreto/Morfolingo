@@ -149,7 +149,7 @@ export const Container = styled.div`
   }
 
   @media (max-width: 720px) {
-    width: 200vw;
+    width: 100vw;
     //background-color: #1cb0f6;
     #content {
       top: 100px;
@@ -163,7 +163,7 @@ export const Container = styled.div`
       position: absolute;
       width: 400px;
       height: 100px;
-      left: 18.33%;
+      left: 0px;
       right: 40%;
       top: 73%;
       bottom: 28.6%;
@@ -175,8 +175,61 @@ export const Container = styled.div`
       width: 400px;
       height: 40px;
 
-      right: 150px;
+      right: 0px;
       top: 580px;
     }
+
+    h2 {
+      position: relative;
+      width: 80vw;
+      height: 68.66px;
+      font-size: "Nunito", "Nunito", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 20px;
+
+      color: rgb(75, 75, 75);
+    }
+    #content {
+      top: 50px;
+
+      position: relative;
+      width: 80vw;
+      height: 300px;
+      //background: #c4c4c4;
+    }
+    textarea {
+      position: absolute;
+      width: 80vw;
+      height: 100px;
+      left: 0px;
+      right: 40%;
+      top: 73%;
+      bottom: 28.6%;
+      text-align: Left;
+      font-size: 15px;
+    }
+
+    #pratica {
+    
+    position: absolute;
+    width: 100px;
+    height: 40px;
+
+    right: 10px;
+    top: 80vh;
+
+    font-size: "Nunito", "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+
+    border: none;
+
+    &:hover {
+      filter: brightness(0.9);
+    }
+  }
   }
 `;

@@ -49,7 +49,7 @@ export const Container = styled.div`
     html {
       font-size: 200px;
     }
-    width: 205vw;
+    width: 100vw;
     #star {
       position: absolute;
       left: 150%;

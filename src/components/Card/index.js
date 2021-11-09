@@ -39,7 +39,7 @@ export default function Cards({ data }) {
 
       <p>{data.content}</p>
 
-      <img id="stars" src={data.stars} alt="estrelas" />
+      {/*<img id="stars" src={data.stars} alt="estrelas" />*/}
       <Link to={data.teoria} style={{ textDecoration: "none", color: "#fff" }}>
         <button background={data.labels} onClick={ scrollTop}>
           Aprender

@@ -22,15 +22,15 @@ export const Container = styled.div`
   }
 
   h2 {
-    text-align: center;
-    margin: 20px auto;
+    text-align: left;
+    margin: 10px auto;
     padding: auto 30px auto;
     width: 514.94px;
     height: 68.66px;
     font-size: "Nunito", "Nunito", sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 25px;
     line-height: 65px;
 
     color: #000000;
@@ -51,7 +51,7 @@ export const Container = styled.div`
 
     .grid {
       display: grid;
-      grid-template-columns:  230px 230px;
+      grid-template-columns:  160px 200px;
     }
 
     .grid-template-rows-2 {

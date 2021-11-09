@@ -4,7 +4,7 @@ export const Container = styled.div`
   position: absolute;
   margin-top: -1597px;
   background: #ecf1f8;
-  width: 100%;
+  width: 100px;
   height: 290%;
   text-align: justify;
   z-index: 1;
@@ -105,20 +105,56 @@ export const Container = styled.div`
       filter: brightness(0.9);
     }
   }
+
   @media (max-width: 720px) {
-    width: 200vw;
+    width: 100vw;
+    position: absolute;
+    margin-top: -1597px;
+    background: #ecf1f8;
+
+    height: 350%;
+   
 
     p {
-      width: 169vw;
-      margin-left: 20vw;
-      font-size: 30px;
+      width: 80vw;
+      margin-left: 30px;
+      font-size: 18px;
     }
     #voltar {
-      margin-left: 40px;
+      margin-left: 30px;
     }
 
     #pratica {
       left: 150vw;
+      top: 20px;
+    }
+
+    h2 {
+      text-align: left;
+      left: 50px;
+      margin: 0;
+    }
+
+    h3 {
+      left: 30px;
+      margin: 0;
+
+      width: 714.94px;
+      height: 68.66px;
+      font-size: "Nunito", "Nunito", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 65px;
+
+      color: rgb(75, 75, 75);
+    }
+
+    #pratica {
+      position: absolute;
+      width: 120px;
+      height: 40px;
+      left: 190px;
       top: 20px;
     }
   }

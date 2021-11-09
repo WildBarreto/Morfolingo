@@ -7,12 +7,13 @@ export const Container = styled.div`
   margin-left: 30%;
   top: 443.09px;
   margin-bottom: 30px;
-  background: ${(props) => `${props.background}`}; //recebe a passada na propridade background do container do card
+  background: ${(props) =>
+    `${props.background}`}; //recebe a passada na propridade background do container do card
   // background: #5acc05;
 
   border-radius: 12px;
 
-  grid-column-gap: 11px;
+  grid-column-gap: 35px;
   display: grid;
   grid-auto-columns: calc(33.33333% - 8px);
   grid-auto-flow: column;
@@ -23,7 +24,7 @@ export const Container = styled.div`
   padding: 11px;
 
   img {
-    width: 60px;
+    width: 50px;
   }
   #stars {
     width: 90px;
@@ -36,7 +37,7 @@ export const Container = styled.div`
     margin: auto;
     position: absolute;
     top: 65px;
-    left: 90px;
+    left: 50px;
     transform: translate(-50%, -50%);
 
     width: 167.6px;
@@ -95,6 +96,38 @@ export const Container = styled.div`
       filter: brightness(0.9);
     }
   }
+
+  @media (max-width: 720px) {
+    width: 130px;
+    height: 150px;
+    margin-left: 10px;
+    top: 40px;
+  margin-bottom: 30px;
+
+    margin-bottom: 10px;
+
+    grid-column-gap: 35px;
+    display: grid;
+    grid-auto-columns: calc(33.33333% - 8px);
+
+    padding: 11px;
+
+    button {
+    
+    top: 150px;
+    right: 113px;
+    
+    margin-bottom: 20px;
+    height: 40px;
+   
+    font-size: 14px;
+    font-weight: bold;
+    
+    width: 130px;
+    height: 43.86px;
+   
+  }
+  }
 `;
 
 export const Header = styled.div`
@@ -112,5 +145,16 @@ export const Header = styled.div`
 
   &:hover {
     filter: brightness(0.9);
+  }
+  @media (max-width: 720px) {
+   
+    width: 100px;
+    height: 100px;
+    top: 0px;
+    margin-left: 25px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
   }
 `;
