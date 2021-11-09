@@ -41,7 +41,7 @@ export default function Cards({ data }) {
 
       <img id="stars" src={data.stars} alt="estrelas" />
       <Link to={data.teoria} style={{ textDecoration: "none", color: "#fff" }}>
-        <button background={data.labels} onClick={onClick, scrollTop}>
+        <button background={data.labels} onClick={ scrollTop}>
           Aprender
         </button>
       </Link>
