@@ -260,8 +260,9 @@ export const Container = styled.div`
       width: 200px;
       position: absolute;
       left: 80px;
+    
       font-size: 15px;
-      top: 29%;
+      top: 55px;
     }
 
     //Icones responsivos
@@ -290,8 +291,8 @@ export const Container = styled.div`
     }
     #atleta {
       position: absolute;
-      width: 190px;
-      top: 50px;
+      width: 160px;
+      top: 80px;
       right: 100px;
     }
     #violao {
@@ -319,8 +320,8 @@ export const Container = styled.div`
     }
     #pedreiros {
       position: absolute;
-      top: 90px;
-      width: 130px;
+      top: 100px;
+      width: 125px;
     }
     #navio {
       position: absolute;

@@ -122,7 +122,7 @@ export const Container = styled.div`
       top: 45px;
       position: absolute;
       width: 70vw;
-      height: 50vw;
+      height: 150px;
     }
 
     p {
