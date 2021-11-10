@@ -242,7 +242,7 @@ export const Container = styled.div`
       height: 40px;
 
       right: 50px;
-      top: 70vh;
+      top: 450px;
 
       font-size: "Nunito", "Nunito", sans-serif;
       font-style: normal;

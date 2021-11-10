@@ -26,6 +26,16 @@ export const Container = styled.div`
   img {
     width: 50px;
   }
+  #sub{
+    width: 190px;
+  }
+  #radi{
+    width: 100px;
+  }
+  #numeral{
+    width:190px
+  }
+
   #stars {
     width: 90px;
     top: 155px;

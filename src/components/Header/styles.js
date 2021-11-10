@@ -8,7 +8,7 @@ export const Container = styled.div`
   color: #fff;
   display: flex;
   align-items: center;
-  width: 84rem;
+  width: 100%;
 
   #star {
     position: absolute;
@@ -49,7 +49,7 @@ export const Container = styled.div`
     html {
       font-size: 200px;
     }
-    width: 100vw;
+    width: 100%;
     #star {
       position: absolute;
       left: 150%;

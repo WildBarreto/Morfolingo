@@ -34,7 +34,7 @@ export default function Cards({ data }) {
 
       {/*Passar a cor que está no api.js*/}
       <Header onClick={onClick} background={data.perfil}>
-        <img src={data.user} alt="estrelas" />
+        <img id={data.ident} src={data.user} alt="estrelas" />
       </Header>
 
       <p>{data.content}</p>
