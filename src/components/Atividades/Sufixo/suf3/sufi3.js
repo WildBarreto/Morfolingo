@@ -53,7 +53,7 @@ function Atividades({ width, percent }) {
         <textarea
           rows="20"
           cols="20"
-          placeholder="Escreva o substantivo da frase"
+          placeholder="Escreva o prefixo da palavra"
           value={nome}
           onChange={(e) => setNome(e.target.value)}
         ></textarea>

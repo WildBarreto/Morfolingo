@@ -1,16 +1,16 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
- width: 50%;
+  width: 50%;
   height: 100px;
 
   left: 17%;
-  background:#ABFF6C;
+  background: #abff6c;
   position: absolute;
   top: 80%;
   z-index: 1;
   border-radius: 20px;
-h1{
+  h1 {
     position: absolute;
     top: 20px;
     left: 120px;
@@ -20,10 +20,9 @@ h1{
     font-weight: 700;
     font-size: 25px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    
-}
+  }
 
-#icon{
+  #icon {
     background: #ecf1f8;
     width: 60px;
     height: 50px;
@@ -32,14 +31,14 @@ h1{
     top: 25px;
     position: absolute;
     align-items: center;
-}
-#check{
+  }
+  #check {
     position: relative;
     left: 10px;
     top: 10px;
-}
+  }
   button {
-    background: #85D700;
+    background: #85d700;
     color: #ecf1f8;
     cursor: pointer;
     border-radius: 20px;
@@ -62,27 +61,50 @@ h1{
     }
   }
   @media (max-width: 720px) {
-    width: 150vw;
-    height: 130px;
+    width: 80vw;
+    height: 180px;
 
-    left: 17%;
-    background: #ABFF6C;
+    left: 30px;
+    background: #abff6c;
     position: absolute;
-    top: 100vh;
-
+    top: 65vh;
+    
     h1 {
       position: absolute;
-      top: 5px;
-      left: 100px;
+    top: 70px;
+    left: 5px;
+    width: 250px;
+    color: #ecf1f8;
+    font-size: "Nunito", "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
 
     button {
-      width: 300px;
+      width: 200px;
       height: 40px;
       position: absolute;
-      right: 10%;
-      top: 80px;
+      right: 20px;
+      top: 130px;
     }
+
+    #icon {
+   
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    left: 20px;
+    top: 20px;
+    position: absolute;
+    align-items: center;
+  }
+  #check {
+    position: relative;
+    width: 30px;
+    left: 3px;
+    top: 3px;
+  }
   }
 `;
-

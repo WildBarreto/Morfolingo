@@ -22,7 +22,7 @@ function Atividades({ width, percent }) {
   //console.log(setValue);
   function verificar() {
     const test = nome;
-    if (test === "a" || test === "a") {
+    if (test === "a" || test === "A") {
       // alert("Parabems você acertou: ");
       return "/Artigo2/ArtigoCerto2";
     } else {
@@ -46,14 +46,14 @@ function Atividades({ width, percent }) {
       <section id="content">
         <h2>Digite o artigo da frase abaixo:</h2>
 
-        <img id="programer" src={Bike} alt="estrelas" />
+        <img id="bike" src={Bike} alt="estrelas" />
        
           <label>Vou ganhar a corrida</label>
        
         <textarea
           rows="20"
           cols="20"
-          placeholder="Escreva o substantivo da frase"
+          placeholder="Escreva o artigo da frase"
           value={nome}
           onChange={(e) => setNome(e.target.value)}
         ></textarea>

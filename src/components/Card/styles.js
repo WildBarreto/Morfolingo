@@ -13,7 +13,7 @@ export const Container = styled.div`
 
   border-radius: 12px;
 
-  grid-column-gap: 35px;
+  grid-column-gap: 37px;
   display: grid;
   grid-auto-columns: calc(33.33333% - 8px);
   grid-auto-flow: column;

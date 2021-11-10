@@ -91,12 +91,36 @@ export const Container = styled.div`
     position: relative;
     top: -20px;
   }
+  #irma {
+    position: relative;
+    top: -20px;
+  }
+  #dog {
+    position: relative;
+    top: -20px;
+  }
+  #violao {
+    position: relative;
+    top: -20px;
+  }
+  #atleta {
+    position: relative;
+    top: -20px;
+  }
+  #nerd {
+    position: relative;
+    top: -20px;
+  }
   #banguelo {
     width: 100px;
     margin-right: 30px;
   }
   #programer {
     width: 200px;
+    margin-right: 10px;
+  }
+  #bike {
+    width: 180px;
     margin-right: 10px;
   }
   #pedreiros {
@@ -151,6 +175,7 @@ export const Container = styled.div`
   @media (max-width: 720px) {
     width: 100vw;
     //background-color: #1cb0f6;
+    margin-top: -1250px;
     #content {
       top: 100px;
       margin-left: 30px;
@@ -212,24 +237,100 @@ export const Container = styled.div`
     }
 
     #pratica {
-    
-    position: absolute;
-    width: 100px;
-    height: 40px;
+      position: absolute;
+      width: 200px;
+      height: 40px;
 
-    right: 10px;
-    top: 80vh;
+      right: 50px;
+      top: 70vh;
 
-    font-size: "Nunito", "Nunito", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
+      font-size: "Nunito", "Nunito", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
 
-    border: none;
+      border: none;
 
-    &:hover {
-      filter: brightness(0.9);
+      &:hover {
+        filter: brightness(0.9);
+      }
     }
-  }
+
+    label {
+      width: 200px;
+      position: absolute;
+      left: 80px;
+      font-size: 15px;
+      top: 29%;
+    }
+
+    //Icones responsivos
+    #menino {
+      margin-left: -60px;
+    }
+
+    #nerd {
+      position: absolute;
+      top: 60px;
+      right: 110px;
+    }
+
+    #veneno {
+      position: absolute;
+      top: 110px;
+      width: 150px;
+      right: 120px;
+    }
+
+    #programer {
+      position: absolute;
+      width: 130px;
+      right: 120px;
+      top: 140px;
+    }
+    #atleta {
+      position: absolute;
+      width: 190px;
+      top: 50px;
+      right: 100px;
+    }
+    #violao {
+      position: absolute;
+      top: 60px;
+      right: 120px;
+    }
+    #peixe {
+      position: absolute;
+      width: 180px;
+      right: 120px;
+      top: 80px;
+    }
+
+    #dog {
+      position: absolute;
+      width: 150px;
+      right: 120px;
+      top: 90px;
+    }
+    #irma {
+      position: absolute;
+      top: 40px;
+      right: 120px;
+    }
+    #pedreiros {
+      position: absolute;
+      top: 90px;
+      width: 130px;
+    }
+    #navio {
+      position: absolute;
+      top: 50px;
+      right: 110px;
+    }
+    #bike {
+      position: absolute;
+      width: 180px;
+      right: 100px;
+    }
   }
 `;

@@ -53,7 +53,7 @@ function Atividades({ width, percent }) {
         <textarea
           rows="20"
           cols="20"
-          placeholder="Escreva o substantivo da frase"
+          placeholder="Escreva o adjetivo da frase"
           value={nome}
           onChange={(e) => setNome(e.target.value)}
         ></textarea>

@@ -47,7 +47,7 @@ function Atividades({ width, percent }) {
       <section id="content">
         <h2>Digite o substantivo da frase abaixo:</h2>
 
-        <img src={Menino} alt="estrelas" />
+        <img id="menino" src={Menino} alt="estrelas" />
 
         <label>Preciso de um taxi!</label>
 

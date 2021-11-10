@@ -46,14 +46,14 @@ function Atividades({ width, percent }) {
       <section id="content">
         <h2>Digite o prefixo da palavra destacada abaixo:</h2>
 
-        <img id="navio" src={Nerd} alt="estrelas" />
+        <img id="nerd" src={Nerd} alt="estrelas" />
        
           <label>Ontem vi algo <u>extraordinario</u> na rua.</label>
          
         <textarea
           rows="20"
           cols="20"
-          placeholder="Escreva o substantivo da frase"
+          placeholder="Escreva o prefixo da palavra"
           value={nome}
           onChange={(e) => setNome(e.target.value)}
         ></textarea>

@@ -46,14 +46,14 @@ function Atividades({ width, percent }) {
       <section id="content">
         <h2>Digite o artigo da frase abaixo:</h2>
 
-        <img  src={Menino} alt="estrelas" />
+        <img id="menino" src={Menino} alt="estrelas" />
        
           <label>Preciso chamar um taxi.</label>
        
         <textarea
           rows="20"
           cols="20"
-          placeholder="Escreva o substantivo da frase"
+          placeholder="Escreva o artigo da frase"
           value={nome}
           onChange={(e) => setNome(e.target.value)}
         ></textarea>

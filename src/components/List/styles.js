@@ -22,7 +22,7 @@ export const Container = styled.div`
   }
 
   h2 {
-    text-align: left;
+    text-align:center;
     margin: 10px auto;
     padding: auto 30px auto;
     width: 514.94px;
@@ -32,7 +32,7 @@ export const Container = styled.div`
     font-weight: 700;
     font-size: 25px;
     line-height: 65px;
-
+    
     color: #000000;
   }
 
@@ -42,7 +42,7 @@ export const Container = styled.div`
 
   @media (max-width: 720px) {
     html{font-size: 62.5%;}
-    padding: 0 30%;
+    padding: 0 10px;
     height: 900px;
 
     flex: 0 0 360px;
@@ -55,11 +55,18 @@ export const Container = styled.div`
     }
 
     .grid-template-rows-2 {
-      grid-template-rows: 290px 290px;
+      grid-template-rows: 225px 210px;
     }
     .grid {
       max-width: 400px;
       margin: 0 auto;
     }
+    h2{
+      text-align: left;
+    }
+
+    ul {
+    margin-top: 0px;
+  }
   }
 `;

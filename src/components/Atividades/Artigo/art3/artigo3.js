@@ -22,7 +22,7 @@ function Atividades({ width, percent }) {
   //console.log(setValue);
   function verificar() {
     const test = nome;
-    if (test === "a" || test === "a") {
+    if (test === "a" || test === "A") {
       // alert("Parabems você acertou: ");
       return "/Artigo3/ArtigoCerto3";
     } else {
@@ -46,14 +46,14 @@ function Atividades({ width, percent }) {
       <section id="content">
         <h2>Digite o pronome da frase abaixo:</h2>
 
-        <img id="navio" src={Violao} alt="estrelas" />
+        <img id="violao" src={Violao} alt="estrelas" />
        
           <label>Cantarie a ultima musica.</label>
        
         <textarea
           rows="20"
           cols="20"
-          placeholder="Escreva o substantivo da frase"
+          placeholder="Escreva o artigo da frase"
           value={nome}
           onChange={(e) => setNome(e.target.value)}
         ></textarea>

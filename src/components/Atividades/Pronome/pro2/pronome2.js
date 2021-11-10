@@ -46,14 +46,14 @@ function Atividades({ width, percent }) {
       <section id="content">
         <h2>Digite o pronome da frase abaixo:</h2>
 
-        <img id="navio" src={Irma} alt="estrelas" />
+        <img id="irma" src={Irma} alt="estrelas" />
        
           <label>Aquela é minha irmã</label>
        
         <textarea
           rows="20"
           cols="20"
-          placeholder="Escreva o substantivo da frase"
+          placeholder="Escreva o pronome da frase"
           value={nome}
           onChange={(e) => setNome(e.target.value)}
         ></textarea>

@@ -4,7 +4,7 @@ export const Container = styled.div`
   position: absolute;
   margin-top: -1597px;
   background: #ecf1f8;
-  width: 100px;
+  width: 100%;
   height: 290%;
   text-align: justify;
   z-index: 1;
@@ -109,7 +109,7 @@ export const Container = styled.div`
   @media (max-width: 720px) {
     width: 100vw;
     position: absolute;
-    margin-top: -1597px;
+    margin-top: -1250px;
     background: #ecf1f8;
 
     height: 350%;
@@ -152,10 +152,11 @@ export const Container = styled.div`
 
     #pratica {
       position: absolute;
-      width: 120px;
-      height: 40px;
+      width: 90px;
+      height: 25px;
       left: 190px;
       top: 20px;
+      font-size: 18px;
     }
   }
 `;

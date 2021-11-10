@@ -46,14 +46,14 @@ function Atividades({ width, percent }) {
       <section id="content">
         <h2>Digite o adjetivo da frase abaixo:</h2>
 
-        <img id="navio" src={Nerd} alt="estrelas" />
+        <img id="nerd" src={Nerd} alt="estrelas" />
        
           <label>Eu fiz este café. </label>
        
         <textarea
           rows="20"
           cols="20"
-          placeholder="Escreva o substantivo da frase"
+          placeholder="Escreva o pronome da frase"
           value={nome}
           onChange={(e) => setNome(e.target.value)}
         ></textarea>

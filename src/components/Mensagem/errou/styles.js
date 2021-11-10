@@ -103,13 +103,13 @@ export const Container = styled.div`
   }
 
   @media (max-width: 720px) {
-    width: 150vw;
-    height: 215px;
+    width: 80vw;
+    height: 250px;
 
-    left: 17%;
+    left: 29px;
     background: #ffa7ad;
     position: absolute;
-    top: 90vh;
+    top: 60vh;
 
     h1 {
       position: absolute;
@@ -118,11 +118,11 @@ export const Container = styled.div`
     }
 
     #dica {
-      left: 25px;
+      left: 20px;
       top: 45px;
       position: absolute;
-      width: 430px;
-       height: 100px;
+      width: 70vw;
+      height: 50vw;
     }
 
     p {
@@ -138,18 +138,18 @@ export const Container = styled.div`
       font-size: "Nunito", "Nunito", sans-serif;
       font-style: normal;
       font-weight: 400;
-      font-size: 1px;
+      font-size: 16px;
       //line-height: 40px;
 
       color: rgb(75, 75, 75);
     }
 
     button {
-      width: 400px;
-      height: 40px;
+      width: 200px;
+      height: 35px;
       position: absolute;
       right: 10%;
-      top: 170px;
+      top: 210px;
     }
   }
 `;

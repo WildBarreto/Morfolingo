@@ -27,7 +27,7 @@ function Mensagem() {
         </p>
       </div>
 
-      <Link to={"/Prefixo2"} style={{ textDecoration: "none", color: "#fff" }}>
+      <Link to={"/Prefixo1"} style={{ textDecoration: "none", color: "#fff" }}>
         <button>Tentar</button>
       </Link>
     </Container>

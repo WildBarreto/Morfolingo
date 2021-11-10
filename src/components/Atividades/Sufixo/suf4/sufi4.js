@@ -46,14 +46,14 @@ function Atividades({ width, percent }) {
       <section id="content">
         <h2>Digite o sufixo da palavra em destaque abaixo abaixo:</h2>
 
-        <img id="navio" src={Nerd} alt="estrelas" />
+        <img id="nerd" src={Nerd} alt="estrelas" />
        
           <label>Sou um homem <u>realista</u>.</label>
          
         <textarea
           rows="20"
           cols="20"
-          placeholder="Escreva o substantivo da frase"
+          placeholder="Escreva o sufixo da palavra"
           value={nome}
           onChange={(e) => setNome(e.target.value)}
         ></textarea>
