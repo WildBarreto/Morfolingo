@@ -44,7 +44,7 @@ function Atividades({ width, percent }) {
       </div>
 
       <section id="content">
-        <h2>Digite o substantivo proprio da frase abaixo:</h2>
+        <h2>Digite o substantivo próprio da frase abaixo:</h2>
 
         <img id="medico" src={Medico} alt="estrelas" />
        

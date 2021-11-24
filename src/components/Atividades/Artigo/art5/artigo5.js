@@ -48,7 +48,7 @@ function Atividades({ width, percent }) {
 
         <img id="veneno" src={Veneno} alt="estrelas" />
        
-          <label>O veneno não possui antídoto .</label>
+          <label>O veneno não possui antídoto.</label>
        
         <textarea
           rows="20"

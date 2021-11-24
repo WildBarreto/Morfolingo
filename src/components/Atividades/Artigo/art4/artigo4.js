@@ -22,7 +22,7 @@ function Atividades({ width, percent }) {
   //console.log(setValue);
   function verificar() {
     const test = nome;
-    if (test === "uma" || test === "uma") {
+    if (test === "uma" || test === "Uma") {
       // alert("Parabems você acertou: ");
       return "/Artigo4/ArtigoCerto4";
     } else {

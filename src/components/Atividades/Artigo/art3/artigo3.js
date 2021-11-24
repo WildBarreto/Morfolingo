@@ -44,11 +44,11 @@ function Atividades({ width, percent }) {
       </div>
 
       <section id="content">
-        <h2>Digite o pronome da frase abaixo:</h2>
+        <h2>Digite o artigo da frase abaixo:</h2>
 
         <img id="violao" src={Violao} alt="estrelas" />
        
-          <label>Cantarie a ultima musica.</label>
+          <label>Cantarei a ultima musica.</label>
        
         <textarea
           rows="20"

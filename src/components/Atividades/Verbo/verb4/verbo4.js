@@ -22,7 +22,7 @@ function Atividades({ width, percent }) {
   //console.log(setValue);
   function verificar() {
     const test = nome;
-    if (test === "construimos" || test === "Construimos") {
+    if (test === "construímos" || test === "Construímos") {
       // alert("Parabems você acertou: ");
       return "/Verbo4/VerbCerto4";
     } else {
